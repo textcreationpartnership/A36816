@@ -1,0 +1,797 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Strange news from th' Indies, or, East-India passages further discovered</title>
+            <author>J. D. (John Darell)</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1652</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 125 KB of XML-encoded text transcribed from 24 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A36816</idno>
+            <idno type="STC">Wing D251</idno>
+            <idno type="STC">ESTC R20900</idno>
+            <idno type="EEBO-CITATION">12226027</idno>
+            <idno type="OCLC">ocm 12226027</idno>
+            <idno type="VID">56498</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A36816)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 56498)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 913:17)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Strange news from th' Indies, or, East-India passages further discovered</title>
+                  <author>J. D. (John Darell)</author>
+               </titleStmt>
+               <extent>[8], 39 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Stephen Bowtel ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1652.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bodleian Library.</note>
+                  <note>Attributed to John Darell. cf. BM.</note>
+                  <note>The dedication and epilogue signed by John Darrell.</note>
+                  <note>Errata: p. 39.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Courten, William, --  Sir, 1572-1636.</term>
+               <term>Courten, William, d. 1655.</term>
+               <term>East India Company.</term>
+               <term>British --  East Indies.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2009-07</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2009-09</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:56498:1" rendition="simple:additions"/>
+            <p>Strange News from th' <hi>Indies:</hi> OR, <hi>Eaſt-India</hi> Paſſages further diſcovered.</p>
+            <p>Auguſt in Jubile, 1650. <hi>A Jove principium.</hi>
+            </p>
+            <q>
+               <l>
+                  <hi>He hath ſhewed thee O man, what is good: And what the Lord doth require of thee: Su<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ely to do juſtly, and to love mercy, and to walk humbly with thy God;</hi> But,</l>
+               <l>
+                  <hi>Becauſe ſentence againſt an evill worke is not executed ſpeedily, therefore the heart of the ſons of men are fully ſet in them to do evill.</hi>
+               </l>
+            </q>
+            <p>As ſome peradventure upon ſerious peruſall and ponder, may apprehend from this briefe, uncouth, and unpolliſhed Diſcourſe; partly diſcovering</p>
+            <p>The Manner, and Tenour of <hi>Eaſt-India-Trade</hi> hitherto: Together, with part of The wofull, and ſad ſufferings of <hi>William Courten</hi> Eſquire, &amp;c.</p>
+            <p>Written for <hi>Information, Confirmation,</hi> and <hi>Confutation:</hi> By a conſtant Well-willer, and continuall ſufferer for Truth, and publike good. <hi>J. D.</hi>
+            </p>
+            <p>Therein imploring and intimating to all in Authority, and others, for ſpeedy Juſtice; And a right underſtanding in judgement and practice, and by principles, and grounded reaſons, pointing at a foundation, and regulation of that hitherto much abuſed <hi>Eaſt-India-Trade,</hi> ſo vaſt, ſpacious, neceſſary, and of extraordinary high concernment to enrich, and advance Kingdomes, and Commonwealths, being the Trade of trades, the Magazeen of Mer<g ref="char:EOLhyphen"/>chandizers, the honour of Nations, and the glory of this world, &amp;c.</p>
+            <figure>
+               <head>E:C: <abbr>mrk:</abbr>
+               </head>
+               <p>G C E</p>
+               <p>
+                  <list>
+                     <head>
+                        <hi>Piety, Pollicy</hi> par pari</head>
+                     <item>Generalis vicarius Dei in terris No 666 Blasphe<g ref="char:cmbAbbrStroke">̄</g>y</item>
+                     <item>Generalis Comitatis East indiae, No 659 Monopoly</item>
+                  </list>
+vtru<g ref="char:cmbAbbrStroke">̄</g>: horu<g ref="char:cmbAbbrStroke">̄</g> Whether barreſ<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> better, <hi>Wiſd. <gap reason="illegible" resp="#UOM" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </hi>
+Apoc. c. 13. v. <hi>ult.</hi>
+               </p>
+            </figure>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Stephen Bowtel,</hi> at the Bible in <hi>Popes-Head-Alley.</hi> 1652.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:56498:2"/>
+            <pb facs="tcp:56498:2"/>
+            <head>To all publike ſpirits, and ſincere lovers of Truth. <hi>More particularly, To the Honourable</hi> Henry Darley <hi>
+                  <abbr>Eſq</abbr> a Member of Parliament, and Councell of State.</hi>
+            </head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">U</seg>Pon ſecond thoughts, and better advice and conſi<g ref="char:EOLhyphen"/>deration, I have altered my reſolution; and the generall and particular diſcharge of my duty, and conſcience, now prompts me to preſent you with this Tragical Diſcourſe (being part of the fruits of my 31. years <hi>Eaſt-India experience</hi> and obſervation) and the rather, becauſe of your knowne ability and alacrity to publike good; as alſo your ſerious and often obſervation of ſome late paſſages in relation to the principall ſuffering ſubject thereof, (this Commonwealth excepted) whoſe caſe and cauſe ſeems to cry aloud to heaven and earth for Juſtice and Judge<g ref="char:EOLhyphen"/>ment, ſaying, (Care ye not that we periſh?) When will it once be, <hi>That judgement ſhall run as a river, and righteouſneſſe as a mighty ſtream:</hi> And although a good foundation of <hi>Eaſt-India</hi> Trade was alſo intended and laid by that Mirror of Merchandizers (and ſo then an incomparable Commonwealths-man) Sir <hi>William Courten</hi> Knight, deceaſed: As appears by his unparalleld Expe<g ref="char:EOLhyphen"/>ditions to the <hi>Weſt,</hi> as well as the <hi>Eaſt-Indies</hi> (the chiefeſt de<g ref="char:EOLhyphen"/>ſirable Trophees of this whole univerſe, to advance and inrich a Nation) yet withall to conſider how in his life time, himſelfe was unjuſtly diſpoſſeſſed of the one by the late King, and his Courtiers, or Favourites: And ſince how <hi>William Courten</hi> Eſquire, his ſon, hath likewiſe been as unjuſtly oppreſt in the other, by the govern<g ref="char:EOLhyphen"/>ment of an illegall Patent (derived from the ſame power) to his utter undoing, adminiſters matter of aſtoniſhment (yea even to very heathens in my knowledge) Becauſe Juſtice and Judgement between man and man, is not executed ſpeedily. But leſt by my ſilence I ſhould become acceſſary to his and others ſufferings ther<g ref="char:EOLhyphen"/>fore I tender the diſpoſal of the ſequel to your moſt ſerious and ju<g ref="char:EOLhyphen"/>dicious wiſdome and diſcretion: You may pleaſe to perceive with me, that I could have put it in another dreſſe, of a deeper dye, and withall hold the rules of truth and ſobriety; but I chuſe rather to prejudice many by a modeſt forbearance, then offend any by harſh and unpleaſing expreſſions, conceiving here is matter ſuffi<g ref="char:EOLhyphen"/>cient to convince the oppreſſors of the errours of their wayes, if they conſider <hi>(intr. al.)</hi> but their laſt deſtruction of trade and ſup<g ref="char:EOLhyphen"/>plies, and ſo of the Plantation, and diſcoveries of <hi>Madagaſcar,</hi>
+               <pb facs="tcp:56498:3"/>and adjacent Iſlands <hi>Aſſada,</hi> and the reſt, which is now become their firſt and onely foundation, and beſt hopes of the preſent Traders, in order to advance themſelves, and this Commonwealth, from the hidden ruine, and remaining baſis of the aboveſaid parties, as long ſince they were plainly and truely informed: And I am perſwaded Heaven will not alwayes ſuffer Earth, injurious Earth thus to paſſe unregarded, unrewarded, but in his due time ſtir up ſome in higheſt Authority, of approved Excellency and Eminency (that knows and remembers they bear not the ſword for nought) to queſtion and determine the whole matter, and forthwith order the ſecuring of <hi>Carwar,</hi> for advance of Trade, and good of this Commonwealth.</p>
+            <p>And ſeeing the principall matters and paſſages in difference are extrinſecall and extrajudiciall, and ſo (humbly conceived improper for, and remedileſſe here by any Court of Juſtice or equity (much leſſe for any Commiſſion thence proceeding) becauſe his juſt right and propriety to Trade, Factories, and Plantations in both <hi>Indies,</hi> are things in Nature and Eminency co-eſſentiall and con<g ref="char:EOLhyphen"/>ſubſtantiall to, and with the being, and well-being of a Common<g ref="char:EOLhyphen"/>wealth (and ſo to be accounted) being rather honours and emol<g ref="char:EOLhyphen"/>luments onely proper to the Crowne and Dignity of a Nation for protection, defence, and preſervation; and in no wiſe (as formerly) to be referred to the neglect, or weak endeavours of an Incorpo<g ref="char:EOLhyphen"/>ration, or particular perſon for oppreſſion, loſſe, and deſtruction, as ſundry inſtances in this enſuing Tract may ſufficiently evince: But in this (as in all other) I moſt humbly ſubmit to better judgements. And ſeeing moreover, that both the father and the ſon (at ſo dear a rate) have opened a door, and preſcribed a way for Trade to perpetuity (which no other would, or could do) where<g ref="char:EOLhyphen"/>by this Nation in time may become the Mirror and Terror of Kingdoms &amp; Countries, therefore I well hope ſuch deſerts (in point of juſtice and equity, as well as incouragement to others) will not alwayes lye in the duſt, but be had in high and honorable eſteem &amp; remembrance by the moſt wiſe, prudent, and beſt affected, and re<g ref="char:EOLhyphen"/>warded accordingly; Which doubtleſſe will be well pleaſing to God, and great rejoycing to good people, and ſo procure Heavens bleſſing upon all your deſigns, ever accompanying ſuch acts of Juſtice and Mercy: And theſe are the prayers, and perſwaſions, hopes, and earneſt deſires of him who willingly remains, <hi>Sir,</hi>
+            </p>
+            <closer>
+               <signed>Your very humble Servant, <hi>John Darell.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:56498:3"/>
+            <head>Mr. <hi>Courten's</hi> voluntary and free tender to his Creditors, the 25th. of Febr. 1645.</head>
+            <opener>
+               <salute>Worthy Sirs:</salute>
+            </opener>
+            <p>MY great loſſes and misfortunes, heightned by the calamities of the times, being too eminently known unto all, (and eſpecially to you my Creditors) who at preſent are moſt unhappily become Suffe<g ref="char:EOLhyphen"/>rers with me therein, though much againſt my will. Yet to the end (that though I periſh) you might not be too great looſers by me, my earneſt deſire is; That you will be pleaſed to take my languiſhing, and almoſt ruined condition into your ſerious conſideration, and that for the remedying thereof, you will be pleaſed to take my eſtate into your care and cuſtodies, to prevent the totall ruine thereof, and there<g ref="char:EOLhyphen"/>in the abſolute loſſe of your Debts, which I hope by Gods bleſſing, and your aſſiſtance may yet be preſerved, if you will vouchſafe to concurre with me in the managing and preſervation thereof, either in the way I have offered in aſſigning my eſtate into your hands, for the good of my Creditors, and for payment of my juſt Debts; or if you ſhall diſlike that way, in any other way or means you ſhall direct, that may conduce to that purpoſe, which is the chiefeſt ayme <hi>I</hi> have, as ſhall appear un<g ref="char:EOLhyphen"/>to you, and all the world if you ſhall pleaſe to accept thereof, and afford your aſſiſtance therein.</p>
+            <p>What I have ſuffered already in the perplexity of my ſoule, ſince my Fathers death, for the effecting thereof, God only yet knowes; but I hope my reall dealing ſhall in ſome meaſure make it manifeſt unto you alſo, if by your favours I may have opportunity ſo to doe. And where<g ref="char:EOLhyphen"/>as you may be jealous that the ſhip <hi>William</hi> (wherein I have inte<g ref="char:EOLhyphen"/>reſt) that is gone to <hi>Ligorne,</hi> was ſent thither out of ſome intent to defraud my Creditors of my eſtate therein, towards the payment of their juſt Debts; That I may take off that ſcruple, <hi>I</hi> doe hereby pro<g ref="char:EOLhyphen"/>teſt I have no ſuch intention, nor never had, but am and will be wil<g ref="char:EOLhyphen"/>ling that my eſtate therein, ſhall be aſſigned to you towards the payment of my juſt Debts, and that if you will afford me your aſſiſtance therein, you ſhall have a cleare diſcovery thereof, and of all other my eſtate in the world; And not only ſo, but ſhall have my utmost aſſiſtance in the getting in the ſame, wherein you ſhall finde me act the part of a faith<g ref="char:EOLhyphen"/>full Servant, and preferre my Creditors just ſatisfaction before my owne ſubſiſtance, or the being of thoſe that are moſt near and dear unto me, and in granting this favour, you ſhall ever oblige</p>
+            <closer>
+               <signed>Your Debtor and Servant, <hi>William Courten.</hi>
+               </signed>
+            </closer>
+         </div>
+         <div type="letter">
+            <pb facs="tcp:56498:4"/>
+            <head>
+               <hi>To the Right Worſhipfull</hi> Ja. Winſtanley, Geo. Cotton' Tho. Bales, <hi>Eſquires, and others, Commiſsioners and Ingagers concerning (his much honoured friend, and late Imployer)</hi> Wil. Courten <hi>Eſquire.</hi>
+            </head>
+            <opener>
+               <salute>Gentlemen,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">I</seg>T ſeems pleaſing to Providence, and preſent Au<g ref="char:EOLhyphen"/>thority, to diſpoſe and intruſt you with the man<g ref="char:EOLhyphen"/>nagement of the ſtrangely diſtracted eſtate of Mr. <hi>Courten;</hi> (A matter of moment, and high con<g ref="char:EOLhyphen"/>cernment as well to the Commonwealth in gene<g ref="char:EOLhyphen"/>rall, as himſelfe and Creditors in particular (as Mr. <hi>Courtens</hi> fore<g ref="char:EOLhyphen"/>going Copy of his proffer to his Creditors, and this enſuing Tract will partly diſcover) but ſo intricated, intangled and inveſted (if not alienated and inverted) that it cannot quickly and eaſily be apprehended or diſcerned, what a difficult and uncouth buſineſſe you have undertaken: But as formerly, ſo now, my love to truth, and reſpect to the juſtneſſe and integrity of his cauſe, and proceedings (as yet I apprehend them) hath moved me to compoſe this following Diſcourſe, and to the utmoſt of my abi<g ref="char:EOLhyphen"/>lity to informe and poſſeſſe you and others, of the true ſtate and condition of ſome forreign and late tranſactions thereto apper<g ref="char:EOLhyphen"/>taining (things not frequent in your ordinary practiſe) leſt you or others ſhould be perplexed with ſuits, or ſurprized, and cir<g ref="char:EOLhyphen"/>cumvented by future Contracts, Conceſſions, or Concluſions: And this I thought neceſſary in diſcharge of my duty, and a good conſcience, whether publick or private, and very materiall and pertinent to ſundry perſons, and preſent occaſions, as hereafter more at large appeareth. And ſo I humbly refer, and ſubmit my further ſervice, and this ſequell to your judicious conſiderations to command and conceive thereof, as God and your own diſcretions can beſt direct you.</p>
+            <closer>
+               <signed>John Darell.</signed>
+            </closer>
+         </div>
+         <div type="summary">
+            <p>
+               <hi>This enſuing Generall Diſcourſe brancheth it ſelfe in ſubſtance</hi> (inter alia) <hi>into theſe following particulars.</hi> viz.</p>
+            <pb facs="tcp:56498:4"/>
+            <list>
+               <head>The Content's partly theſe.</head>
+               <item n="1">
+                  <hi>1</hi> THat as the foundation and Government of <hi>Dutch Eaſt-India</hi> Trade, and <hi>Engliſh Eaſt-India</hi> Traffique are diverſe or contrary, ſo are their ſucceſſes, even to admiration, which alone would require a large Volume.</item>
+               <item n="2">
+                  <hi>2.</hi> That in all Revolutions of Trade, and Times: <hi>Infancy, State,</hi> and <hi>Declination,</hi> and ſince depredations and detentions, <hi>China, Portugall, Mallabar,</hi> and <hi>Madagaſcar,</hi> have much ſup<g ref="char:EOLhyphen"/>ported their Trade and Shipping.</item>
+               <item n="3">
+                  <hi>3.</hi> That by neglect of <hi>China</hi> and <hi>Japan,</hi> the Spice Iſlands,
+<note place="margin">Plea National.</note> and <hi>Ormus,</hi> with <hi>Caſhmee Caſtle,</hi> and Cuſtomes, with neg<g ref="char:EOLhyphen"/>lect and deſtruction of Plantations, &amp;c. Trade was loſt, Trea<g ref="char:EOLhyphen"/>ſure (elſewhere procurable) hence abundantly exhauſted; generall Adventurers undone, or much impoveriſhed, and Common-wealth thereby abuſed, and ſo hitherto con<g ref="char:EOLhyphen"/>tinued.</item>
+               <item n="4">
+                  <hi>4</hi> That the expedition of Sir <hi>William Courten</hi> (if ſuppor<g ref="char:EOLhyphen"/>ted) was excellent, Honourable, and profitable to Eaſt-India Companie, and Common-wealth, but very unkindly requited hitherto, by both injuries and delayes, as hereafter plenti<g ref="char:EOLhyphen"/>fully declared, being thereby damnified <hi>per</hi> Engliſh, about <hi>150000. <abbr>li.</abbr>
+                  </hi> As by the Charge, Affidavit, and that cruell, and unreaſonable (I ſay not Helliſh Agreement) appeareth, &amp;c. This Agreement was diſcovered from <hi>India,</hi> anno <hi>1642.</hi> and mightily confirmed there, annis <hi>1643. &amp; 1644.</hi> by Acti<g ref="char:EOLhyphen"/>ons, Commiſſions, Orders, Injunctions, Expreſſions, Detenti<g ref="char:EOLhyphen"/>ons, Maſſacres, and Depredations, &amp;c.</item>
+               <item n="5">
+                  <hi>5</hi> That from the ſaid Expedition, &amp;c. Mr. <hi>Courten</hi> may juſtly claime perſonall and peculiar intereſt and propriety,
+<note place="margin">Plea perſonall.</note> (ſufficient to imploy three or foure Ships of good burthen year<g ref="char:EOLhyphen"/>ly) from <hi>Dabull,</hi> all along the Coaſt of <hi>Mallabar</hi> to <hi>Cape Can<g ref="char:EOLhyphen"/>nereene;</hi>
+                  <pb facs="tcp:56498:5"/>alſo <hi>Acheen</hi> Factory, <hi>Ballaſore,</hi> and <hi>China</hi> Trade, others there conceiv'd at beſt (<hi>Ballaſore</hi> excepted) either interlopers, intruders, ſupplanters, or oppreſſors, till differences (long de<g ref="char:EOLhyphen"/>pending) by Authority be determined, &amp;c.</item>
+               <item n="6">
+                  <hi>6</hi> That two joynt Stocks at leaſt (well regulated) are ab<g ref="char:EOLhyphen"/>ſolutely neceſſary, and a foundation free from Bloud-guilti<g ref="char:EOLhyphen"/>neſſe might better be laid, and ſo expect better ſucceſſe then formerly, as by the three Principles, <hi>Carwar</hi> conſiderations, and other waies may plainly be demonſtrated.</item>
+               <item n="7">
+                  <hi>7</hi> That the new Modellers (the old Companies nowbeſt dire<g ref="char:EOLhyphen"/>ctors) had their induction and inſtruction from Mr. <hi>Courten,</hi> and others in relation to him and the Common-wealth, but their unkinde retributions, and preventions of further and future diſcoveries, and informations for generall good, deſerves a particular Diſcourſe.</item>
+               <item>Concluding the Premiſes with a peremptory (but pertinent and patheticall Letter) intended principally for preſent ſecu<g ref="char:EOLhyphen"/>ring <hi>Carwar,</hi> for the recovery and advance of that Trade, and good of this Common-wealth, &amp;c.</item>
+               <item>Cloſing up all with a generall Aſſertion, and particular ap<g ref="char:EOLhyphen"/>plication of Mr. <hi>Courtens</hi> intereſt, and propriety in and to the <hi>Eaſt</hi> and <hi>Weſt-Indies,</hi> &amp;c.</item>
+            </list>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb n="1" facs="tcp:56498:5"/>
+            <div type="part">
+               <head>Eaſt-India-Trade firſt diſcovered by the <hi>ENGLISH.</hi>
+               </head>
+               <p>
+                  <seg rend="decorInit">W</seg>Hen famous Sir <hi>Francis Drake</hi> (after his re<g ref="char:EOLhyphen"/>turn from the South ſeas <hi>Anno</hi> 1580.) had here divulged his diſcovery and treaty there with the King of <hi>Ternatte,</hi>
+                  <note place="margin">
+                     <hi>Anno</hi> 1580.</note> and his Oran<g ref="char:EOLhyphen"/>kaies or Nobles (being one of the principall Spice-Iſlands of <hi>Molucca, Banda</hi> or <hi>Amboyna,</hi> (the onely known places of the world for Nutmegs, Cloves and Mace,
+<note place="margin">Plea National.</note> and a principall foundation of <hi>Eaſt-India,</hi> and all other Trade) thereupon ſome years after, a vigilant fore-ſeeing neighbour <hi>Dutch</hi>-Nation (who, like wiſe Merchants, and carefull parents, providing for childrens portions and poſterity) tooke the opportunity of advantage of the negligent and inconſiderate <hi>Engliſh,</hi> then and after, altoge<g ref="char:EOLhyphen"/>ther for the preſent:) And the ſaid forreign Nation after ſome yeares ſpent in diſcovery, to gain a right underſtanding there<g ref="char:EOLhyphen"/>of, at laſt proſecuted their <hi>Eaſt-India</hi> voyages with one onely joynt ſtock of about 600000 <abbr>li.</abbr> in a Nationall, free and regulated way, and therewith in forty years gained almoſt the whole Eu<g ref="char:EOLhyphen"/>ropian Trade of <hi>Eaſt-India</hi> aforeſaid,
+<note place="margin">Dutch ſtock 600000. <abbr>li.</abbr> An. 1602.</note> even to admiration in point of power, honour and profit, ſo that <hi>(communibus annis)</hi> 1400000 <abbr>li.</abbr> or thereabouts, is conceived returned for <hi>Hol<g ref="char:EOLhyphen"/>land</hi> (being but the ſuperfluity of their ſtock of <hi>India</hi>) beſides imployment of two hundred, or two hundred and fifty ſaile of Ships, equall now in burthen to four or five hundred of ours, ha<g ref="char:EOLhyphen"/>ving thereby alſo gotten and built there, about thirty impregnable Cities, Towns and Caſtles,
+<note place="margin">Dutch-gain, Englands-loſſe.</note> beſides Conqueſt and Command of about 30000 miles coaſting (with Inland-trade) <hi>viz.</hi> from the coaſts of <hi>China, Japan,</hi> and <hi>Phillippeen</hi> Iſlands Northwards, all along to <hi>Cape bon Eſperanze</hi> Southwards, the whole contents of the Old-<hi>Eaſt-India</hi> Companies Patent or Monopoly.</p>
+               <p>Whereas the <hi>Engliſh</hi> being, and for ſome years continuing in
+<pb n="2" facs="tcp:56498:6"/>particular running-voyages (onely to enrich a few) were afterward reduced to a generall joynt ſtock,
+<note place="margin">Contrary Conſtitutions.</note> or deſtructive Monopoly of a different or contrary Conſtitution and Government to the fore<g ref="char:EOLhyphen"/>ſaid <hi>Dutch</hi> or Neighbour-Nation, as might be ſhewed in ſundry particulars, and ſo hath produced different and contrary effects, as appears at this day by the ſaid Companies miſ-imploying or miſ-ſpending ſince in one joynt ſtock about 1600000 <abbr>li.</abbr> in ſeverall joynt ſtocks above 3600000 <abbr>li.</abbr> thereby much impoveriſhing the Nation and Natives by tranſporting much Bulloigne,
+<note place="margin">Engliſh-ſtocks 3600000 <abbr>li.</abbr>
+                  </note> and native coine (elſewhere procurable) onely inriching a few at home and abroad in office and imployment; and (which is wonderfull) notwithſtanding all this time and treaſure, hitherto not provided in <hi>India</hi> with one port, or place of their owne for a Rendezvouze, or ſo much as to ſecure a Ship or Pinnace;
+<note place="margin">Company no Rendezvouze.</note> but it is not the Au<g ref="char:EOLhyphen"/>thours intention to make ſearch or ſcrutiny at this time into this myſtery, whether proceeding from reaſon prevaricated by the particular intereſts and profits of the Governing-party here, or rather from Deity offended, by the cruell and unreaſonable inten<g ref="char:EOLhyphen"/>tions and actions of thoſe in office and authority, both here and elſewhere, belonging to the ſaid Company; for to dip my pen in blood's (from the Old Companies firſt <hi>Adam</hi>'s at <hi>Japan,</hi> to Mr. <hi>Courtens</hi> laſt <hi>Adam</hi> at <hi>Madagaſcar</hi> or <hi>Acheen)</hi> would be a ſad theam:
+<note place="margin">Adam Cx. Adam Cm.</note> And to ſpeak of unparalleld injuries and oppreſſiors is no pleaſing ſtory, yet duty and neceſſity (with due reſpect to truth and ſobriety) at preſent enjoyns me (according to my pro<g ref="char:EOLhyphen"/>miſe in the Frontiſpeece) to declare ſomewhat of my long and laborious obſervation and experience of that hitherto abuſed <hi>Eaſt-India</hi>-Trade (rather Traffique) as alſo of the wofull and ſad ſufferings therein, of <hi>William Courten</hi> Eſquire, his friends and creditors, which are very many and great; onely for orders ſake re<g ref="char:EOLhyphen"/>ducing the ſame to three Terminations or Revolutions, <hi>Infancy, State,</hi> and <hi>Declination,</hi> therefore <hi>ad rem,</hi> briefly thus:</p>
+               <p>The <hi>Engliſh</hi> being thus improvident, and careleſſe of Cities and Caſtles ready built,
+<note place="margin">Ormus &amp;c. neglected. Plea National.</note> and the Royalties and Cuſtomes thereof (though of extraordinary value and conſequence, and properly be<g ref="char:EOLhyphen"/>longing to the Crown and Dignity of this Commonwealth) and the <hi>Dutch</hi> Shipping and Trade there, to the Northward (as for<g ref="char:EOLhyphen"/>merly to the Southward) more and more increaſing; and <hi>Por<g ref="char:EOLhyphen"/>tugal</hi>
+                  <pb n="3" facs="tcp:56498:6"/>depredations (whereof the Company had taken good ſtore) failing;
+<note place="margin">Trade decay<g ref="char:EOLhyphen"/>ing from 161<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> to 1634.</note> then fell the <hi>Engliſh</hi> Traffique there alſo into a deep and languiſhing conſumption, inſomuch that their Actions or Ad<g ref="char:EOLhyphen"/>ventures were frequently ſold here from party to party, for many years together at 30. 35. and 40. <hi>per cent.</hi> loſſe, ſome much more, others undone, and ſo continued decaying a long time with<g ref="char:EOLhyphen"/>out any hope of recovery; and about <hi>An.</hi> 1632. And ſince, ſome tranſactions were ſaid to be again in agitation between the <hi>Dutch</hi> on the one party,
+<note place="margin">Quer. Mr. Bo<g ref="char:EOLhyphen"/>neal, and Mr. Boſwel the Kings Agent and ſtate of Spice-Iſlands.</note> and the late King and the <hi>Engliſh Eaſt-India</hi> Company on the other party, concerning their claim or intereſt in or to any the foreſaid Spice-Iſlands in relation to the Crown of <hi>England</hi> (then ſaid to be comprimized for 80000 <abbr>li.</abbr> (including the ſaid Companies houſes, and ſtores burnt at <hi>Jacquetra</hi> by the <hi>Dutch Aug.</hi> 1628. valued by proteſt then at 200000. Rials of eight <hi>Spaniſh</hi>) but the ſaid King and Company not agreeing up<g ref="char:EOLhyphen"/>on ſhares (as reported) the monies yet remaine with the <hi>Dutch,</hi>
+                  <note place="margin">Houſes and ſtores burnt, &amp; K. demands 30000 <abbr>li.</abbr>
+                  </note> but what was then and there poſitively acted is beſt known to themſelves, and whether beneficiall, or rather much prejudiciall to this Commonwealth?
+<note place="margin">J. H.</note> for it is certainly reported from men of experience in thoſe parts, that ſince that time the <hi>Dutch</hi> have aſſumed the ſole &amp; whole propriety of all the foreſaid Spice-Iſlands to themſelves, prohibiting the <hi>Engliſh</hi> upon pe<g ref="char:EOLhyphen"/>nalty and forfeiture of ſhip and goods, life, limbe and liberty,
+<note place="margin">A. 1623. trade loſt valued at 100000 <abbr>li.</abbr> per An.</note> not to come there with any their ſhipping, which ſaid loſſe of Trade by knowing men <hi>(viis &amp; modis)</hi> is valued at 100000 <abbr>li.</abbr> 
+                  <hi>per an<g ref="char:EOLhyphen"/>num</hi> conſequence, to this Commonwealth.</p>
+               <p>The aforeſaid <hi>Eaſt-India</hi> Company having thus loſt their trade by undervaluing and neglecting thoſe Iſlands and <hi>Ormus,</hi> &amp;c. <hi>An.</hi> 1623. as formerly expreſt, and ſo brought their coaſting and poſting Traffique into ſuch a condition, that generall Adventurers were altogether diſcouraged, and themſelves (I mean thoſe in office and authority, (who onely were gainers as aforeſaid) ſtill craftily crying up that trade, and labouring as for life, pretending want of freedome, liberty, and other immunities and priviledges in Cuſtomes and Impoſts, with an unlimited arbitrary power over all Adventurers, and an abſolute reſtraint of the whole Nation,
+<note place="margin">Bad govern<g ref="char:EOLhyphen"/>ment deſtroyes Trade.</note> which could have no other iſſue (ſave as formerly) to damnifie and de<g ref="char:EOLhyphen"/>ſtroy our owne, and enrich all others with the riches and dignities of thoſe vaſt and glorious Kingdomes and Countries, not con<g ref="char:EOLhyphen"/>ſidering;
+<pb n="4" facs="tcp:56498:7"/>or at leaſt not diſcovering the main and ſole cauſes of theſe their ſo unprofitable practices,
+<note place="margin">Good and bad government.</note> proceeds meerly and clearly from their unprincipled and generall bad government; and this truth is manifeſt and apparent, by their exporting hence our owne coine of gold, ſilver, half Crowns, and Plate (melted or unmel<g ref="char:EOLhyphen"/>ted,
+<note place="margin">Quer. the rea<g ref="char:EOLhyphen"/>ſons.</note> as well as foreigne; in as great quantities to maintaine a Traffique of 100. or 150000 <abbr>li.</abbr> 
+                  <hi>per annum,</hi> as the <hi>Dutch</hi> to maintain a Trade of 2000000 <abbr>li.</abbr> 
+                  <hi>per an.</hi> or more, which requires ſerious conſideration and reformation.</p>
+            </div>
+            <div type="part">
+               <head>Sir <hi>William Courten's</hi> Expedition.</head>
+               <p>WHilſt <hi>Eaſt-India</hi> affairs were in this low, languiſhing and deſperate condition, it ſo happened, that the late King and Councell were (by travellers and men of experience) truly informed thereof,
+<note place="margin">An. 1634. and 1635.</note> and expected ſome rationall propoſalls from the ſaid Company, to recover and revive the ſame, but find<g ref="char:EOLhyphen"/>ing none ſatisfactory (for grounded and accuſtomed errours are neither eaſily removed, nor willingly acknowledged) and withall conſidering the damage Nationall, of at leaſt 4. or 500000 <abbr>li.</abbr> in <hi>England</hi> and <hi>Ireland,</hi> in the exportation of our Native, and im<g ref="char:EOLhyphen"/>portation of <hi>Eaſt-India</hi> commodities (beſides imployment and improvement of ſtock and ſhipping,
+<note place="margin">Reaſons for Sir Wil. Cour<g ref="char:EOLhyphen"/>tens underta<g ref="char:EOLhyphen"/>kings.</note> a great honour and ſafety to this Nation;) Theſe and other like good conſiderations moved the ſaid late King and Councell, to admit of another Company to plant and trade in ſuch places onely where the old Company were not, or did not trade, and there at their diſcretion to ſettle Factories and plant Collonies after the <hi>Dutch</hi> manner (and intended practiſe of the new modelers from that example) the one not to interloop, intrude or intrench upon,
+<note place="margin">Sir Williams Patent legal, the Companies not.</note> or into the Ports and places of the other, as by Letters-patents, or otherwiſe may plainly appear.</p>
+               <p>The late King and Councell having thus equally and prudently reſolved and ordered this weighty affair, Sir <hi>William Courten</hi> (a moſt eminent Merchant and excellent Commonwealths-man) was conceived fitteſt to undertake and manage the ſame; and to that end having entertained Merchants and Commanders of good abilities, and long experience there, fitted and ſet out, <hi>An.</hi> 1635. five or ſix ſaile of Ships richly provided, and ſo ſet ſaile for <hi>Eaſt-India,</hi> and arrived at <hi>Goa</hi> (the chiefe <hi>Portugal</hi> City there, in<g ref="char:EOLhyphen"/>tending to ſettle from <hi>Dabull</hi> in the <hi>Decan</hi>-Country (once ſackt
+<pb n="5" facs="tcp:56498:7"/>by the Companies ſhip Exchange) and ſo all along that,
+<note place="margin">Sir Williams propriety and foundation.</note> and the coaſt of <hi>Mallabar</hi> to <hi>Cape Commereen</hi> or <hi>Cannereen,</hi> where they ſetled Factories, contracted Cuſtomes, purchaſed and bought Ports and places for Trade; and from thence ſailed to <hi>Acheen,</hi> ſo to <hi>China,</hi> and intended for <hi>Japan,</hi> and afterwards for <hi>Mada<g ref="char:EOLhyphen"/>gaſcar</hi> and other places; and this was the principall ground<g ref="char:EOLhyphen"/>work and foundation of that moſt excellent, honourable, juſt and neceſſary undertaking; indeed a buſineſſe both then and now too weighty for any particular man, or ſociety, and <hi>(rebus ſic ſtanti<g ref="char:EOLhyphen"/>bus)</hi> onely fit for the cognizance or encouragement of the Re<g ref="char:EOLhyphen"/>preſentative of this whole Nation,
+<note place="margin">Eaſt-India-trade National.</note> or others by their appoint<g ref="char:EOLhyphen"/>ment in regard of foreigne and domeſtick oppoſition, as here<g ref="char:EOLhyphen"/>after expreſſed.</p>
+               <p>Sir <hi>William Courten</hi> aforeſaid had no ſooner diſ-ſpeeded the ſaid ſhips from the <hi>Downes,</hi> but he fell ſick and dyed,
+<note place="margin">Sir Williams adventure 150000 <abbr>li.</abbr>
+                  </note> having therein (as reported) upon his particular account, an adventure of about 150000 <abbr>li.</abbr> and the voyage was no ſooner entered, but all manner of devices and oppoſitions both at home and abroad were uſed and practiced to prevent, obſtruct,
+<note place="margin">Dutch and Engliſh Devi<g ref="char:EOLhyphen"/>ces.</note> damnifie and utterly de<g ref="char:EOLhyphen"/>ſtroy their deſignes, both by <hi>Dutch</hi> and <hi>Engliſh;</hi> and for the bet<g ref="char:EOLhyphen"/>ter underſtanding thereof, ſomewhat to each party for diſtinction ſake, and firſt to the <hi>Duch</hi> becauſe of their diſtance.</p>
+               <p>THe <hi>Dutch</hi> ſeriouſly weighing and pondring that the principles and purpoſes of this Expedition were much like their own, altogether tended to revive and advance a Trade to perpetuity, (eſpecially in opening and eſtabliſhing a <hi>China</hi> and <hi>Japan</hi> trade,
+<note place="margin">Dutch appre<g ref="char:EOLhyphen"/>henſions upon good reaſons.</note> whereto the old Company would never be perſwaded neither to trade with the <hi>Mallabars</hi> as aforeſaid) therefore the <hi>Dutch</hi> (leſt their honours and profits ſhould thereby be impared and diminiſhed) watched and ſpied out their deſignes at <hi>Goa</hi> and coaſt of <hi>Mallabar</hi> aforeſaid, and upon the very firſt proceedings of Captain <hi>John Weddall</hi> with the foreſaid Fleet, from <hi>Goa</hi> aforeſaid, and ſo through the ſtraights of <hi>Malacca,</hi> and in their paſſage to and again from <hi>China</hi> aforeſaid, upon their lawfull im<g ref="char:EOLhyphen"/>ployments,
+<note place="margin">Dutch Com<g ref="char:EOLhyphen"/>miſſion fire and ſword.</note> were ſundry times encountred and moleſted by the <hi>Dutch;</hi> and at laſt (having a Commiſſion from <hi>Heer van Dee<g ref="char:EOLhyphen"/>man</hi> (as I take it) the Generall of <hi>Jaccatra alias Battavia</hi>) to fire or ſinke them, unleſſe they would come under their com<g ref="char:EOLhyphen"/>mand
+<pb n="6" facs="tcp:56498:8"/>and ſubmit to their mercy, or deliver them the <hi>Portugals</hi> and their goods aboard, valued about 200000 <abbr>li.</abbr> But Captaine <hi>Richard Swanley</hi> (Commander of Ship Sonne) and his Company were unwilling to fight in defence of the <hi>Portugals</hi> and their goods (becauſe from them they had received many injuries and affronts in <hi>Chinae</hi>) whereat Captain <hi>Weddal</hi> was much enraged, but Captain <hi>Swanley</hi> adviſed Captain <hi>Weddal</hi> to open the box <hi>Numb.</hi> 8. with inſtructions from <hi>England</hi> concerning <hi>Portugal,</hi> wherein they found power was given them to ſeize any <hi>Portu<g ref="char:EOLhyphen"/>gals,</hi>
+                  <note place="margin">Dutch and Engliſh Com<g ref="char:EOLhyphen"/>manders tranſ<g ref="char:EOLhyphen"/>actions.</note> and their goods for the Crown of <hi>England</hi> in caſe they ſuffe<g ref="char:EOLhyphen"/>red any damage by them, and then Captain <hi>Weddal</hi> ſeized upon the goods accordingly, ſo Captaine <hi>Swanley</hi> and his com<g ref="char:EOLhyphen"/>pany were ſatisfied and reſolved upon that account to hazard their lives in defence thereof, and the Sonne being of beſt force, ha<g ref="char:EOLhyphen"/>ving ſix and thirty Guns mounted, weighed anchor and went a head the Dragon to receive the firſt encounter, then Captain <hi>Swan<g ref="char:EOLhyphen"/>ley</hi> went aboard the <hi>Dutch</hi> Commandoor, and acquainted him with their reſolutions and grounds thereof, whereat the ſaid Com<g ref="char:EOLhyphen"/>mandoor and Company was much incenſed, but thereupon re<g ref="char:EOLhyphen"/>frained ingagement, and deſired a copy of their Orders and Inſtru<g ref="char:EOLhyphen"/>ctions to keep his head on his ſhoulders (as he ſaid) when he re<g ref="char:EOLhyphen"/>turned to <hi>Jaccatra</hi> (which peradventure was granted conditionally to proſecute to purpoſe the year following) and ſo in a grumbling threatning manner ſuffered them to paſſe; but ſtill obſerved their motion, and Captain <hi>Weddal</hi> afterward refuſed Captain <hi>Swan<g ref="char:EOLhyphen"/>leys</hi> advice, which was to make good that ſeizure, and bring thoſe goods for <hi>England,</hi> but contrarily Captain <hi>Weddal</hi> (according to his particular contract in <hi>China</hi>) landed the ſaid <hi>Portugals</hi> and their goods in <hi>India;</hi>
+                  <note place="margin">Dutch reaſons for revenge.</note> Then the <hi>Dutch</hi> finding themſelves thus deluded by a device, doubtleſſe reſolved upon an opportunity for a revenge, ſo the Ship Sonne being laden, ſet ſail that year from the coaſt of <hi>Mallabar</hi> for <hi>England:</hi> but the <hi>Dragon</hi> and <hi>Kathe<g ref="char:EOLhyphen"/>rine</hi> having a rich ſtock, and not lading to their deſires ſtaid ano<g ref="char:EOLhyphen"/>ther year,
+<note place="margin">Capt. William Swanleys teſt.</note> when being expected home, it was then credibly and poſitively reported in <hi>Holland</hi> (by ſome that came from <hi>India</hi>) that they had ſunk, or that the ſaid Ships <hi>Dragon</hi> and <hi>Katherine</hi> were ſunk, which (taken at beſt) they could not have told, unleſſe they had known it, becauſe it was never yet known or heard that
+<pb n="7" facs="tcp:56498:8"/>two Ships either <hi>Dutch</hi> or <hi>Engliſh</hi> did ever periſh together by caſualty or tempeſt, to or from <hi>India</hi> aforeſaid.
+<note place="margin">Two ſhips never periſhed toge<g ref="char:EOLhyphen"/>ther from India</note> And their very ſilence herein, is a ſufficient argument of their full revenge, and ſa<g ref="char:EOLhyphen"/>tisfaction to thoſe that have ſpent ſome years amongſt them at <hi>Jacquetra,</hi> and acquainted with their lofty and inſolent carriage towards, and their rigid and auſtere government over the in<g ref="char:EOLhyphen"/>conſiderable brabling pedling <hi>Engliſh</hi> (as they tearm and value them) beſides it was alſo reported that ſome of the ſaid Ships goods marked with Mr. <hi>Courtens</hi> mark,
+<note place="margin">T. L.</note> were afterwards ſold at <hi>Acheen,</hi> and the common rumour in <hi>India</hi> and elſewhere, by ſe<g ref="char:EOLhyphen"/>verall Nations were, That the <hi>Dutch</hi> way-laid them with a Fleet (as ſome affirmed) conſiſting of nine ſaile, <hi>viz.</hi> ſix Ships,
+<note place="margin">T. W.</note> and three Yaughes or Pinnaces (whereof Ship <hi>Amſterdam</hi> was Admirall) and ſo meeting with them of <hi>Zealoan</hi> (whereof <hi>John Tyſon</hi> a Skipper was afterwards made King by the Generall <hi>Jaccatra,</hi>
+                  <note place="margin">Zealoan the o<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ly Synamond Iſland. Jo. Tyſon K. of Zealoan. Dragon and Katherine w<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t<g ref="char:EOLhyphen"/>ched at Co<g ref="char:EOLhyphen"/>cheen, then way-laid and ſunk. Uncharitable ſilence.</note> as appeared by his warrants) invited Captain <hi>Weddal</hi> aboard (as ſome ſaid) and then took occaſion to quarrell, and ſo to pillage and ſink them, not ſaving a man alive, and that divers, the old Companies ſervants in <hi>India</hi> have both heard and related ſundry ſuch probable reports to that purpoſe, howſoever here an un<g ref="char:EOLhyphen"/>charitable ſilence and reſervation, or rather fear to offend others, and ſo prejudice themſelves, makes them beware.</p>
+               <p>This great loſſe valued about 140000 <abbr>li.</abbr> occaſioned divers years to paſſe, ere another voyage for <hi>China</hi> by <hi>William Courten</hi> Eſquire (Son and Executor to the aforeſaid <hi>William</hi>) was under<g ref="char:EOLhyphen"/>taken, which was <hi>An.</hi> 1643. in Ship <hi>Bon Eſperange,</hi>
+                  <note place="margin">Ship Bon Eſprange taken by Dutch.</note> which ſaid ſhip was fraighted from <hi>Goa</hi> aforeſaid for <hi>China</hi> &amp; paſſing through the ſtraights of <hi>Mallacca</hi> upon her lawful imployment, as afore<g ref="char:EOLhyphen"/>ſaid, met likewiſe with another <hi>Dutch</hi> Fleet, and was by them ſum<g ref="char:EOLhyphen"/>moned as aforeſaid, to go in there under their command, elſe their Commiſſion was to ſink or burn, kill or ſlay, and ſo upon refuſall to go in, the ſaid Ship was violently aſſaulted, the Maſter and others ſlain, and at laſt taken and made repriſall, and carried into <hi>Malacca,</hi> and all the men living, made priſoners, and the <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> (by their own relation) more baſely eſteemed and uſed by the <hi>Dutch,</hi> then the <hi>Portugals</hi> their reputed enemies,
+<note place="margin">Common re<g ref="char:EOLhyphen"/>port at Malacca.</note> and as theſe men did frequently report afterwards at <hi>Bantam</hi> and elſewhere, that it was a common ſpeech in <hi>Malacca,</hi> that the two foreſaid Ships <hi>Dragon</hi> and <hi>Katherine</hi> were ſunk by the <hi>Dutch,</hi> and that
+<pb n="8" facs="tcp:56498:9"/>ſome <hi>Dutch</hi> themſelves ſaid unto them, they did well to yeeld when they did, elſe they ſhould have fared like the Dragon, and <hi>Katherines</hi> Company.</p>
+               <p>And Captaine <hi>Jeremiah Blackman</hi> in his returne from <hi>China,</hi>
+                  <note place="margin">Captaine Blackman eſca<g ref="char:EOLhyphen"/>ped, and af<g ref="char:EOLhyphen"/>fronted in China.</note> in ſhip <hi>William,</hi> nearly eſcaped the like danger, having lately ſuf<g ref="char:EOLhyphen"/>fered at <hi>China</hi> ſundry affronts and prejudices, both from <hi>Dutch,</hi> and the old Companies ſervants, aſperſing them for Round-heads, and declaring themſelves Royaliſts, and Cavaliers, and ſo gained the affection of the <hi>Portugals,</hi> and <hi>Chinaes,</hi> as the Merchant of the ſaid ſhip <hi>William</hi> reported in <hi>India.</hi>
+               </p>
+               <p>There hath been alſo further conſiderable diſcoveries here in <hi>England,</hi> and <hi>(inter alia)</hi> of an imbroidered Girdle with ſilver buckles,
+<note place="margin">John Stratford in Southwarke teſt.</note> belonging to Mr. <hi>John Dawbney</hi> Chirurgeon of the ſaid ſhip <hi>Katherine,</hi> and knowne to be alive and well in the ſaid ſhip, ſetting ſaile for <hi>England</hi> from the coaſt of <hi>Mallabar,</hi> which ſaid very Girdle of certaine knowledge, both of the buckles and imbroidery, a <hi>Dutch</hi> Saylor or ſea-man in <hi>Southwarke</hi> was ſeen to weare, and the party was fully reſolv'd to apprehend him up<g ref="char:EOLhyphen"/>on ſuſpicion, but diſſwaded by friends and acquaintance, but could not be ſo ſatisfied, but went to the ſaid <hi>Dutchman,</hi> and de<g ref="char:EOLhyphen"/>manded how,
+<note place="margin">Jo Dawbnies girdle.</note> where, and when he came by the ſaid Girlde? the <hi>Dutchman</hi> at firſt ſeemed angry, and asked the reaſon of his inqui<g ref="char:EOLhyphen"/>ry; he replyed, becauſe that was his friends Girdle, which he reſol<g ref="char:EOLhyphen"/>ved, and ſo declared here to his friends and himſelfe, before his going for <hi>India,</hi> never to ſell or give away the ſame; at laſt the <hi>Dutchman</hi> confeſt he had it in <hi>India,</hi>
+                  <note place="margin">The Dutch<g ref="char:EOLhyphen"/>mans confeſ<g ref="char:EOLhyphen"/>ſion.</note> the ſaid party (as he ſaid) did then thinke in his very heart that the ſaid <hi>Dutchman,</hi> and one or two more with him, were ſome of their Murtherers, and after that time ſaw him no more; only acquainted the <hi>Eaſt-In<g ref="char:EOLhyphen"/>dia</hi> Company, or ſome of their Servants therewith (not knowing Mr. <hi>Courten</hi>) but being by them ſlighted, ſuffered it ſo to paſſe (as himſelfe ſaid) and would juſtifie upon Oath if thereunto lawfully called, with much more to that purpoſe; but what need I hold a Candle to the Sun?
+<note place="margin">C. W. S. M. T. L.</note>
+               </p>
+               <pb n="9" facs="tcp:56498:9"/>
+               <p>Moreover, the aforeſaid Captaine <hi>Jeremiah Blackman,</hi>
+                  <note place="margin">Cap. J. B. threat<g ref="char:EOLhyphen"/>ned.</note> Com<g ref="char:EOLhyphen"/>mander of the ſhip <hi>William,</hi> was likewiſe in the ſaid Streights, in her lawful Voyage to <hi>China,</hi> by another <hi>Dutch</hi> Fleet ſtrongly threatned with ſinking, or burning, unleſſe he would ſubmit as aforeſaid, and ſhewed him their Commiſſion to that very pur<g ref="char:EOLhyphen"/>poſe, but the ſaid <hi>Dutch</hi> (though moe ſhips in number) view<g ref="char:EOLhyphen"/>ing and ſeeing her every way wel fitted and manned for defence, durſt not attempt, but ſuffered her to paſſe, and notwithſtanding the diſcreet anſwers of C. <hi>B.</hi> aforeſaid to their Meſſages, having neither <hi>Portugall,</hi> or <hi>Portugalls</hi> goods, yet by Letters, threats, and other wayes they thought to diſturbe and prevent him in his <hi>China</hi> Trade as aforeſaid,
+<note place="margin">Ship William way-laid.</note> and upon his returne (as was repor<g ref="char:EOLhyphen"/>ted) way-laid him with a greater Fleet of ſeven, or nine ſayle, but met not with him, the reaſon was, (as moſt conceiv'd) that the <hi>Dutch</hi> ſuppoſed, that the fear of them might cauſe Cap. <hi>B.</hi> to keep a good diſtance from the coaſt of <hi>Malacca,</hi> and peradven<g ref="char:EOLhyphen"/>ture to paſſe through the ſtreights of <hi>Sundie,</hi> but the <hi>Dutch</hi> failed of that hope, for the ſaid ſhip came as neare the coaſt of <hi>Malacca</hi> as poſſible they could, and paſſed faire by the rode, and ſo through the ſtreights without interruption, or ſight of any <hi>Dutch</hi> ſhips, which was much admired by the <hi>Dutch</hi> at <hi>A<g ref="char:EOLhyphen"/>cheen.</hi>
+                  <note place="margin">Eaſt-India Companies ſubjection.</note> But ſhortly after this two of the old Companies ſhips re<g ref="char:EOLhyphen"/>turning together the ſame Voyage from <hi>China,</hi> were encounte<g ref="char:EOLhyphen"/>red by ſome of the foreſaid <hi>Dutch</hi> fleete, and (according to cuſtom) without reſiſtance ſubmitted to their Summons, and went in under their command at <hi>Malacca,</hi> to pay what duties, and re<g ref="char:EOLhyphen"/>ceive what further admonitions and inſtructions the <hi>Dutch</hi> there would pleaſe to lay upon them, and ſo probably ever ſince, they (as formerly elſewhere) deſerted thoſe <hi>China</hi> Voyages; or became their tributaries, whereby at pleaſure the <hi>Dutch</hi> can now pre<g ref="char:EOLhyphen"/>vent all hopes of future Trade into any thoſe Southerne parts, unleſſe ſome remedy or courſe be taken here in <hi>England</hi> to pre<g ref="char:EOLhyphen"/>vent their practiſes; the conſideration hereof, together with ſome particular grudge againſt Captain <hi>Weddall</hi> at the ſiedge of <hi>Cales</hi> may ſufficiently evince the truth of the premiſes,
+<note place="margin">Com. Wil<g ref="char:EOLhyphen"/>brand at Goa. The true and pretended cau<g ref="char:EOLhyphen"/>ſes of Dutch proceedings<g ref="char:punc">▪</g>
+                  </note> and that the true cauſe was the feare of competition in that Trade, and not their difference with the <hi>Portugall,</hi> as they pretended.</p>
+               <p>
+                  <label>Object.</label> 
+                  <hi>But many object, and ſay, It is impoſsible to con<g ref="char:EOLhyphen"/>ceale
+<pb n="10" facs="tcp:56498:10"/>ſuch an horrid and mercileſſe act of ſinking and drow<g ref="char:EOLhyphen"/>ning, &amp;c. thereto thus.</hi>
+               </p>
+               <p>Thoſe who have had their education at home,
+<note place="margin">Severall judge<g ref="char:EOLhyphen"/>ments.</note> may poſſibly in truth have ſome ſuch ſlender apprehenſions, and deceitfull judge<g ref="char:EOLhyphen"/>ments in a charitable conſtruction, yet if ſuch would but ſeriouſly conſider what cruel plots and projects have ſecretly, and abun<g ref="char:EOLhyphen"/>dantly been lately acted in our owne and neighbour Nations, might thence receive ſufficient information and ſatisfaction. But others from obſervation and experience abroad, thinks it as ſtrange on the contrary, that ſo much teſtimony upon ſo little inquiry ſhould ſo evidently appeare,
+<note place="margin">Amboyna action.</note> the leaſt whereof being more then the greateſt, or all the Indiciaes in that horrid <hi>Amboyna</hi> action<g ref="char:punc">▪</g> beſides, better to informe their judgements, I wil inſtance, or parallel it with a paſſage at <hi>Jaccatra</hi> in <hi>India,</hi> Anno 1628. and it was thus:</p>
+               <p>
+                  <hi>January,</hi> 1627.<note place="margin">Jaccatr. 1627.</note> the <hi>Engliſh</hi> removing then from <hi>Jaccatra</hi> aforeſaid to <hi>Bantam,</hi> but leaving their houſes with goods and ſtores to a great value, as by <hi>Invoyce,</hi> and proteſt under others and my owne hands then and afterwards appeared, which ſaid houſes, &amp;c. in <hi>Auguſt,</hi>
+                  <note place="margin">Houſes, &amp;c. burnt. Aug. 1628.</note> 1628. were fired and burnt by the aforeſaid <hi>Dutch,</hi> (and the walls afterwards laid even with the ground) and by them reported to be done by the <hi>Javaes</hi> their enemies, which report (notwithſtanding many thouſand inhabitants there (moſt knowing the ſame) was never in <hi>India</hi> contradicted, or the truth thereof ever yet publiſhed or confeſſed by any of them to this day that ever I heard of, which plainly ſhewes it much more eaſie to conceale the deſtruction of the <hi>Dragon,</hi> and <hi>Katherine,</hi> which with the foreſaid ſhip <hi>Bonſperanz,</hi> and <hi>Hen. Bonadventure,</hi>
+                  <note place="margin">Dutch dama<g ref="char:EOLhyphen"/>ges valued at 200000. <abbr>l.</abbr>
+                  </note> at <hi>Mauritius</hi> Iſland, may amount in value to about 200000. <abbr>li.</abbr>
+               </p>
+               <p>Furthermore, it was never yet knowne (as formerly expreſt) that two ſhips, neither <hi>Engliſh</hi> nor <hi>Dutch</hi> periſhed together, ei<g ref="char:EOLhyphen"/>ther going to,
+<note place="margin">Two ſhips ne<g ref="char:EOLhyphen"/>ver periſhed together.</note> or comming from <hi>India,</hi> ſince their firſt Trading thither to this preſent, though much weaker in ſubſtance, or of longer continuance in the Country, &amp;c. Thus far the <hi>Dutch.</hi>
+               </p>
+               <p>But leaſt forraigne Adverſaries (as their actions and expreſſi<g ref="char:EOLhyphen"/>ons plainly demonſtrate) ſhould not fully effect their deſires,
+<pb n="11" facs="tcp:56498:10"/>let us looke back againe to the beginning of this ſo honeſt and honourable undertaking,
+<note place="margin">The Old Eaſt-India Compa<g ref="char:EOLhyphen"/>ny, &amp;c.</note> and with as much truth and plaineneſſe as may be, briefly touch, or point at the practice and proceedings of our owne Nation and Neighbours, more particularly the Old <hi>Eaſt-India</hi> Company, and ſome others, which may much con<g ref="char:EOLhyphen"/>firme and ſeale the truth of the Premiſes, <hi>viz.</hi>
+               </p>
+               <p>It hath been too apparent from the beginning how ſtrongly and ſtrangely the ſaid <hi>Eaſt-India</hi> Company have endeavoured by all means at home and abroad, continually to oppoſe, obſtruct, damnifie,
+<note place="margin">Eaſt-India Company Ship Lond.</note> and prevent the lawfull proceedings of the ſaid Sir <hi>Wil<g ref="char:EOLhyphen"/>liam Courten</hi> deceaſed, and <hi>William Courten</hi> 
+                  <abbr>Eſq</abbr> his ſon for at or before the arrivall of the ſaid Fleet in <hi>India,</hi> a contract was made with the Vice-roy of <hi>Goa</hi> by the ſaid Companies Preſident, and thereupon a ſhip freighted thence for <hi>China</hi> by the <hi>Portugals,</hi> to anticipate or prejudice the ſaid deſigne, being the firſt <hi>Engliſh</hi> ſhip ever ſent thither by the ſaid Company, and that upon freight, as having neither monies nor goods of their own but good ſtore of private trade,
+<note place="margin">W.M.P. E.H.C.</note> and the ſaid Preſident afterwards homeward bound at <hi>Madagaſcar</hi> received divers courteſies from the Commander of Mr. <hi>Courtens</hi> ſhip <hi>William,</hi> outward bound (as credibly reported) promiſing a fair and friendly requitall for the ſame by his letter to the ſaid Vice-roy, but the purport thereof (as was ſaid) was of a contrary tenour, and of ſuch dangerous conſequence (if it had been delivered) that it might have hazard<g ref="char:EOLhyphen"/>ed the ſurpriz all of the ſhip and goods, or promoted ſome diffe<g ref="char:EOLhyphen"/>rence or diſtaſte either from the <hi>Portugals</hi> or <hi>Malabars,</hi>
+                  <note place="margin">Foundation for Trade.</note> where Mr. <hi>Courtens</hi> Factors (with extraordinary charges had purcha<g ref="char:EOLhyphen"/>ſed, and ſetled divers Factories for accommodation of Trade to perpetuity as aforeſaid.</p>
+               <p>Likewiſe at home Mr. <hi>Courten</hi> was often moleſted with ſundry frivolous complaints, and divers prejudiciall,
+<note place="margin">Mauritius pre<g ref="char:EOLhyphen"/>vented. Alſo Madagaſ<g ref="char:EOLhyphen"/>car. E. Southamton, E. Arundel.</note> and vexatious infor<g ref="char:EOLhyphen"/>mations at Councel-board before this Parliament, as when the Plantations of <hi>Mauritius</hi> and <hi>Madagaſcar</hi> were prevented, and ſo left for the <hi>Dutch,</hi> and ſince at ſeverall Committees, too tedious to relate, whoſe example incited the ſaid Company, and their Factors to a far greater care then formerly in the manage<g ref="char:EOLhyphen"/>ment and inlargement of their Trade; Inſomuch that this advantage thereupon to them ſhortly accrued, that whereas their actions or adventures, were formerly ſold for many years together, at 30,
+<pb n="12" facs="tcp:56498:11"/>35,
+<note place="margin">Trade advan<g ref="char:EOLhyphen"/>ced. Mr. G.C.</note> or 40. <hi>per cent.</hi> loſſe, or more, as aforeſaid; on the contrary, upon, or preſently after this Expedition, they yeelded 30, 35, or 40. <hi>per cent.</hi> profit, or more (as ſome of themſelves repor<g ref="char:EOLhyphen"/>ted) yet for all this, the ſaid Company deſiſted not from proſecu<g ref="char:EOLhyphen"/>ting year after year,
+<note place="margin">Ships relieved, monies lent, men redeemed &amp;c. Brightwel Jo. &amp;c. Hen. Watkings ſacrificed.</note> although Mr. <hi>Courten,</hi> and his Commanders, and Factors, had ſundry wayes and times required their cruell in<g ref="char:EOLhyphen"/>juries with manifold and divers extraordinary courteſies, as re<g ref="char:EOLhyphen"/>lieving their ſhips with proviſions, their Factors with monies, and redeeming ſundry times their men with large ſummes from the miſerableſt <hi>Mallabar</hi> Captivity that ever was heard of, (as in the ſaid mens expreſſions is lamentably declared) ſome of them lying ten or twelve months together in moſt ſad diſtreſſe, conceiving the Turkiſh ſlavery, a Paradiſe o their dolefull Captivity; and to aggravate their miſery, thoſe that ſuffered moſt were taken (not in the Companies ſervice by their own relation) but imployed by their Preſidents, and others in private trade from Port to Port, be<g ref="char:EOLhyphen"/>ing therein (to uſe their owne language) the Companies Com<g ref="char:EOLhyphen"/>petitors and to ſcrue their afflictions to the height,
+<note place="margin">The Compa<g ref="char:EOLhyphen"/>nies competi<g ref="char:EOLhyphen"/>tors. P. W.</note> the then Preſi<g ref="char:EOLhyphen"/>dent of <hi>Surrat</hi> (by whom they were principally imployed) would neither relieve them himſelfe, nor appoint any other, nor afford them their own wages and debts, due from the ſaid Com<g ref="char:EOLhyphen"/>pany for their ranſome or ſubſiſtance, no nor ſo much as any the leaſt comfort at all either in word or writing, as by their owne moſt grievous, wofull, and patheticall expreſſions to Mr. <hi>Courtens</hi> Factors, may more largely appear.</p>
+               <p>But leſt theſe and like practices ſhould not fully effect their purpoſes, I will give you a hint of their more cruell and deſperate courſes,
+<note place="margin">Com. cruell re<g ref="char:EOLhyphen"/>ſolutions.</note> (if we may believe the free and friendly expreſſion of one of their own Factors) upon good teſtimony taken at <hi>Rabagg</hi> in <hi>In<g ref="char:EOLhyphen"/>dia</hi> 4. <hi>May</hi> 1644. and afterwards made good in <hi>England</hi> upon oath in <hi>Chancery,</hi> 23. <hi>Feb.</hi> 1646, as followeth <hi>verbatim.</hi>
+               </p>
+               <pb n="13" facs="tcp:56498:11"/>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="affidavit">
+                           <head>The Agree<g ref="char:EOLhyphen"/>ment.</head>
+                           <opener>
+                              <dateline>Rabagg <date>4. Marcii 1644.</date>
+                              </dateline>
+                           </opener>
+                           <p>THeſe are to certifie all whom it may concerne, That in<hi> October 1642. </hi>I underwritten<hi> R.H. </hi>being in company with Mr.<hi> J. S.</hi> (then a ſervant to Eſquire<hi> Courten) </hi>at the<hi> Cardinals-Hat </hi>near the<hi> Royal-Exchange </hi>in<hi> London, </hi>drinking after<hi> Exchange-time </hi>as uſually; there came into our company divers other Mer<g ref="char:EOLhyphen"/>chants, all unknown to me<hi> (</hi>I beleeve not to<hi> Dtt. S.) </hi>one of which was (as by his diſcourſe) ſometimes Factor in<hi> Eaſt-India </hi>for the Old Company, and then lately come from thence, who relating the ſeverall paſſages and dangers he had paſſed in his voyage out, and home, and my ſelfe reply<g ref="char:EOLhyphen"/>ing, That I was upon<hi> Dtt. </hi>deſigne in ſervice of the Worſhipfull<hi> William Courten </hi>Eſquire (whoſe dayes God make ever happy) his the ſaid Factors reply was; As a friend I tell it you, proceed not in that imployment, for it is moſt dangerous, becauſe the ſaid Old<hi> Eaſt-India </hi>Company, and the<hi> Dutch </hi>have <hi>Agreed</hi> together to injure the <abbr>Eſq</abbr> either at<hi> Cape-good-hope, </hi>or where elſe they ſhall meet with his ſhips to the effect of ſinking, burning, or taking: All which, I the aforeſaid<hi> R.H. </hi>doe affirme to be true, as heard in the place aforeſaid, and by Oath will confirme the ſame, when thereunto lawfully called.</p>
+                           <closer>
+                              <dateline>In witneſſe whereof I have hereunto ſet my hand <date>the day and year above written.</date>
+                              </dateline>
+                              <signed>R. H.</signed>
+                           </closer>
+                           <postscript>
+                              <p>Jurat. de veritat.</p>
+                              <closer>
+                                 <dateline>permiſſ. <date>23. die Feb. 1646.</date>
+                                 </dateline>
+                                 <signed>J. P.</signed>
+                              </closer>
+                           </postscript>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>This Affidavit made good ſince upon Oath in <hi>Chancery,</hi> need no Commentary, for it ſpeaks very plain and fully to the whole buſineſſe, neither can any other conſtruction be made thereof, as proceeding from any particular Intereſt, or by-reſpects, but a
+<pb n="14" facs="tcp:56498:12"/>friendly admonition of a known truth, as both before and after by the ſaid agreement of the ſaid parties, an their ſeverall actions plainly appeared.</p>
+               <p>For the ſaid <hi>Eaſt-India</hi> Company proceeded,
+<note place="margin">May 1643. Comp. 2 ſhips Hart and Hind.</note> and took occa<g ref="char:EOLhyphen"/>ſion in <hi>May</hi> 1643. being (the year following) to viſit the coaſt of <hi>Mallabar</hi> with two of their ſhips, and there found at Anker (in the road of <hi>Cannanore</hi>) two Veſſels, a greater, and a leſſer, belonging to <hi>Mamula Croe,</hi> or <hi>Mahmet d' Croe</hi> (King of <hi>Can<g ref="char:EOLhyphen"/>nanore</hi> aforeſaid) and other merchants, with whom Mr. <hi>Courtens</hi> Factors had good trade and correſpondence,
+<note place="margin">Mahmet de Croe K. of Cannan. &amp;c.</note> having a Factory ſometime there, and another at <hi>Batticalla,</hi> not far from thence, wich a coſtly building of his owne. The ſaid two ſhips belonging to the ſaid <hi>Mahmet de Croe,</hi> being very rich in treaſure of gold and ſilver,
+<note place="margin">Mallabar de<g ref="char:EOLhyphen"/>predations, 30 or 40000 <abbr>li.</abbr> 1 veſſel 500 tun burthen.</note> and newly come from the <hi>Red-Sea,</hi> were then and there both violently ſeized on by the Companies ſaid two ſhips, and ſo made repriſall, killing and drowning ſome hundreds of their men, without mercy (as was reported) and tooke from them in treaſure, thirty or forty thouſand pound Sterling, the moſt whereof belonged to <hi>Mamula Croe</hi> aforeſaid, which act not onely cauſed the loſſe of thoſe Factories, Trade, and friendly correſpondence in thoſe parts;
+<note place="margin">M<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hmerd' Groes demands</note> but to this day the ſaid <hi>Mamula Croe</hi> &amp;c. demands the ſaid loſſe, with damages from Mr. <hi>Courtens</hi> Factors, then threatning them with utter deſtruction both by Sea and Land, if they made not ſpeedy ſatisfaction, as by ſeverall atteſtations, and other expreſſions did plainly appear.</p>
+               <p>Moreover, it was by the ſaid <hi>Mallabars</hi> alleadged, That be<g ref="char:EOLhyphen"/>cauſe the Companies Factors, and Factories were at ſuch a diſtance, therefore they could not attain their right from them; but from Mr. <hi>Courtens</hi> (living near or amongſt them they might,
+<note place="margin">Mallabars plea.</note> ſaying further, that <hi>England</hi> is ſaid to be a place of Juſtice, where Mr. <hi>Courten</hi> may obtaine full right from the Company, but how far they are miſtaken hitherto, both in that, and the follow<g ref="char:EOLhyphen"/>ing five thouſand pound principall, which prejudiced M. <hi>Courten</hi> above forty thouſand pound in one year) I leave to thoſe in Au<g ref="char:EOLhyphen"/>thority,
+<note place="margin">Mr. Courtens damage.</note> and others, whom it may concerne to judge and con<g ref="char:EOLhyphen"/>ſider.</p>
+               <p>And leaſt this ſhould not be a ſufficient provocation,
+<note place="margin">Comp. ſhip Hopewel E. L Maſter.</note> in <hi>Ja<g ref="char:EOLhyphen"/>nuary</hi> following, another of the ſaid Companies ſhips ſeconded the ſaid cruelties, with other Maſſacres upon poore people in
+<pb n="15" facs="tcp:56498:12"/>country Boats,
+<note place="margin">R. W. atteſt. Dutch entered Mallabar, &amp;c.</note> trading too and fro upon the ſaid coaſt of <hi>Malla<g ref="char:EOLhyphen"/>bar,</hi> as by another Atteſt may alſo appeare; whereby they have conſtrained the <hi>Mallabars</hi> to deſire the <hi>Dutch</hi> to reſide at <hi>Can<g ref="char:EOLhyphen"/>nanore,</hi> and protect them againſt the <hi>Engliſh,</hi> thereby hazarding the loſſe of that Trade, to the further great prejudice of this Common-wealth, the <hi>Dutch</hi> never there before,
+<note place="margin">Carwar now in danger.</note> but now ſeated neare <hi>Carwar</hi> wil alſo indanger that which is one, and all the places enjoyed by any <hi>Engliſh</hi> in <hi>India,</hi> fit for a Randezvouz.</p>
+               <p>In further proſecution of the foreſaid Agreement, or Covenant, Combination, or Conſpiracy, about two yeares after, viz. in <hi>May,</hi> 1644.
+<note place="margin">Ship little William.</note> it ſo happened at <hi>Madagaſcar</hi> that <hi>R. B.</hi> Maſter of the ſaid Companies ſhip <hi>Endeavour</hi> ſubtilly, and ſurreptiti<g ref="char:EOLhyphen"/>ouſly got poſſeſſion of about 5000. <abbr>li.</abbr> value in <hi>Barbary</hi> gold, and two braſſe Guns, with ſeventeen men, all ſaved by their great induſtry out of the ſhip <hi>Little William</hi> caſt away beyond <hi>Cape bon Eſperanze,</hi> going to <hi>India</hi> upon Mr. <hi>Courtens</hi> imployment,
+<note place="margin">R. B. and F. D. monies detai<g ref="char:EOLhyphen"/>ned, deman<g ref="char:EOLhyphen"/>ded by meſſen<g ref="char:EOLhyphen"/>gers, letters, proteſts, &amp;c.</note> which ſaid <hi>B.</hi> &amp;c. partly by falſe reports, and partly by faire pro<g ref="char:EOLhyphen"/>miſes, pretending then, and afterwards at all times and places convenient, he would aſſiſt them in the tranſport thereof to ſome of Mr. <hi>Courtens</hi> Factories in <hi>India,</hi> or elſe to <hi>Acheen,</hi> whither they were conſign'd; but being poſſeſt thereof, intended nothing leſſe, but delivered the ſame at <hi>Madraſſapatan</hi> to <hi>F. D.</hi> &amp;c. the ſaid Companies chiefe Agent there, and by them the ſame is de<g ref="char:EOLhyphen"/>tained to this day, though often and lawfully demanded in <hi>India,</hi> with much earneſtneſſe and extraordinary hazard, and excee<g ref="char:EOLhyphen"/>ding great charge by Sea and Land, as appeares by many ſeverall Letters, Proteſts, Meſſengers, &amp;c. the ſaid Companies Factors alwayes concealing the ſame in <hi>India</hi> for many months together,
+<note place="margin">Extraordinary charges and concealments of men and monies.</note> both men and monies from the knowledge of all Mr. <hi>Courtens</hi> Factors (though but fifteen dayes journey by a Foot-poſt, and upon the ſame continent, &amp; converted the ſaid monies to their own uſe (for it ſeems they much wanted ſupplies) and they ſo ordered and diſpoſed of the men, that but one of all the ſaid ſeventeen ever yet appeared to tell any tales or tidings to Mr. <hi>Courten,</hi> or any his Factors, either in <hi>India</hi> or <hi>England</hi> that ever I heard of,
+<note place="margin">T. H. Factor.</note> no not ſo much as any word or writing from any one of them, though it be reported that <hi>T. C.</hi> Mr. of the ſaid ſhip <hi>William,</hi>
+                  <note place="margin">T, C. no wri<g ref="char:EOLhyphen"/>tings</note> (who had the principall charge thereof) dyed in one of the ſaid
+<pb n="16" facs="tcp:56498:13"/>Companies ſhips homeward bound; therefore let the judicious reader compare and conſider all circumſtances, and then conclude how farre this concealement comes ſhort of that of the <hi>Dragon</hi> and <hi>Katherine</hi> aforeſaid,
+<note place="margin">This conceal<g ref="char:EOLhyphen"/>ment compared with Dragon and Kitherine.</note> and how much inferiour for cruelty and damage.</p>
+               <p>The fore-mentioned party (one of the ſeventeen) ſundry years after being accidentally heard of, an found out in <hi>London</hi> (his Conſcience ſeeming to accuſe him) being Purſer and Factor of the ſaid ſhip <hi>William,</hi> in Office next to the aforeſaid <hi>C.</hi> an per<g ref="char:EOLhyphen"/>ceiving Mr. <hi>Courten</hi> in a condition not to proſecute in Law, was very unwilling to make any relation thereof,
+<note place="margin">T. H. <hi>unwil<g ref="char:EOLhyphen"/>lingneſſe.</hi>
+                  </note> but afterwards was conſtrained thereto by an Order from the Houſe of Lords, and confirmed the ſame in <hi>Chancery,</hi> which he ſaid was done very ſparingly; and further ſaid, that if he ſhould have ſpoken his knowledge therein freely, it would have been a great ſhame and diſgrace to the ſaid Company,
+<note place="margin">Their bondage at Madraſſapa<g ref="char:EOLhyphen"/>ton.</note> and that he could make ſuch a diſcovery of that paſſage at <hi>Madraſſapatan,</hi> how they were kept in durance, and that the ſaid D. &amp;c. would not ſuffer them to goe from <hi>Acheen</hi> with their Gold, &amp;c. although they had agreed with a Country Veſſel or Junke at 40. <abbr>l.</abbr> for their paſſage or tranſport, neither would they be ſuffered to write, or travell by Land to Mr. <hi>Courtens</hi> Factories, but were forced to ſubmit to their pleaſure, and be at their diſpoſe, and the like, being all ſe<g ref="char:EOLhyphen"/>venteen ſtrangers in <hi>India,</hi> and never there before, &amp;c. The ſaid parties ſparing Relation and Affidavit is as followeth.</p>
+               <q>
+                  <floatingText xml:lang="eng">
+                     <body>
+                        <div type="affidavit">
+                           <head>To the Right Honourable the Lords aſſembled in Parliament. The humble and true Atteſtation of <hi>T. H.</hi> Factor, concerning Eaſt-India paſſages, relating to 5000. <hi>l.</hi>in controverſie between <hi>William Courten</hi> 
+                              <abbr>Eſq</abbr> and the old Eaſt-India Company.</head>
+                           <p>THe 7th. of <hi>May,</hi> 1644. Ship <hi>Endeavour</hi> belonging to the <hi>East-India</hi> Company arrived in <hi>Auguſtine</hi> Bay, upon the Iſland of St. <hi>Laurence,</hi> at which time was reſident upon the ſame place ſeventeen perſons of <abbr>Eſq</abbr> 
+                              <hi>Courtens,</hi> which through ſhipwrack had then lived there almoſt ninemoneths; At the
+<pb n="17" facs="tcp:56498:13"/>arriving of the foreſaid <hi>Endeavour,</hi> my ſelfe and ſix more went aboard at the ſame time, the Mr. <hi>R. B.</hi> and the Merchant, <hi>H. O.</hi> were going aſhore, upon our comming they ſtayed a lit<g ref="char:EOLhyphen"/>tle, enquiring of us our diſaſter and then went away. After which ſome of our company diſcourſing with theirs, revealed concer<g ref="char:EOLhyphen"/>ning the ſaying of the <hi>Barbary</hi> Gold, which newes was ſent a<g ref="char:EOLhyphen"/>ſhore to the foreſaid Maſter, and Merchant, who preſently re<g ref="char:EOLhyphen"/>turned aboard to have further knowledge, and then went aſhore againe to viſite our Maſter, <hi>T. C.</hi> unto whom they proferred paſſage with all his Company, and what we had unto <hi>Joanna,</hi> or their Factorie in <hi>India,</hi> and that we might have from thence conveyance for our Gold unto the Eſquires Factories <hi>per</hi> bils of Exchange, or carried over land. And they further infor<g ref="char:EOLhyphen"/>med us, that we might expect ſhips out of <hi>England,</hi> but there was ſmall hopes, for they had been a long time ready, but were ſtopt by the Parliament, that our Maſter Eſquire <hi>Courten</hi> was failing.</p>
+                           <p>Upon theſe reſolutions our Maſter accepted of their loves for paſſage to <hi>Joanna;</hi> After we had been at ſea ſome five dayes,
+<note place="margin">Two months after M. Cour<g ref="char:EOLhyphen"/>tens ſhip arri<g ref="char:EOLhyphen"/>ved there.</note> the Maſter and Merchant of ſhip <hi>Endeavour</hi> deſired of <hi>T. C.</hi> to ſee the Gold, and know the quantity, and likewiſe to peruſe his Invoyce, and his Bill of lading, or elſe they would take no charge of the Gold;
+<note place="margin">The Gold ta<g ref="char:EOLhyphen"/>ken in charge.</note> which deſire was granted by the ſaid <hi>T. C.</hi> who produce the Gold, with Bill of lading and Invoyce, the which they looked on and coppied out, the Gold they weighed with rials of 8. and ſealed them up together in baggs, and put it into one of their Maſters cheſts of money.</p>
+                           <p>Before we came to <hi>Joanna,</hi>
+                              <note place="margin">Falſe ſuggeſti<g ref="char:EOLhyphen"/>ons, Joanna very healthful, teſt. 22. Com<g ref="char:EOLhyphen"/>panies men.</note> the Maſter and Merchant per<g ref="char:EOLhyphen"/>ſwaded <hi>T. C.</hi> not remaine on <hi>Joanna,</hi> becauſe there was ne<g ref="char:EOLhyphen"/>ver any of our <hi>Engliſh</hi> that once lay aſhore that lived, and that upon arrivall at their Factory we ſhould be accomodated with any thing for our further paſſage; which perſwaſion <hi>T. C.</hi> re<g ref="char:EOLhyphen"/>ceived.</p>
+                           <p>In our paſſage from <hi>Joanna</hi> to <hi>Madraſſapatan,</hi> R. B. Maſter of the ſaid ſhip <hi>Endeavour,</hi>
+                              <note place="margin">Further entice<g ref="char:EOLhyphen"/>ments.</note> brought out his Commiſſion upon the quarter deck, and read it openly in the hearing of the ſaid <hi>T. C.</hi> and divers others of the ſaid <hi>C.</hi> his Company, wherein the terme Interloper was often recited, and being read, he the ſaid <hi>R. B.</hi> demanded of the ſaid <hi>T. C.</hi> to ſee his Commiſſion,
+<pb n="18" facs="tcp:56498:14"/>which was only Orders,
+<note place="margin">Companies Commiſſions ſcandal. and large.</note> and Inſtructions, by vertue of Letters Patents, whereof the ſaid <hi>B.</hi> tooke a Coppy; and the ſaid <hi>R. B.</hi> then told the ſaid <hi>T. C.</hi> that by vertue of his Commiſſion, if he had met him at ſea he had power to take him.</p>
+                           <p>The ſecond of <hi>July</hi> we arrived at one of the Companies Fa<g ref="char:EOLhyphen"/>ctories in <hi>Madraſſapatan,</hi> where being aſhore, <hi>T. C.</hi> requeſted the Companies Agent and Factors, That according to their in<g ref="char:EOLhyphen"/>formations and promiſe, that they would aſſiſt us for the tranſ<g ref="char:EOLhyphen"/>porting of the ſaid Gold, either by bill of Exchange, or convey<g ref="char:EOLhyphen"/>ance over Land unto ſome of the Eſquires Factories; the which they denied,
+<note place="margin">Maſter D. poſitive and often denials.</note> anſwering, that the Country was up in armes, and there was no ſafe paſſages. We then requeſted the Agent and Councel to give us his Paſſe, and let us have Servants and Guides, and we would travell with it, or elſe to make it over by bils of Exchange; his anſwer againe was, That he would not, and that if we would have our Gold,
+<note place="margin">Companies Agreement and Commiſſions ſuitable.</note> that we ſhould preſently be gone out of their Fort, for they were bound by Commiſſion from their Imployers from aſſiſting us, if we were in need, with ſo much as a peece of bread; And he would not ſay he would ſend any after us, but we ſhould take what followed.</p>
+                           <p>We alſo asked an <hi>Engliſh-man</hi> (that had been formerly their Servant, but then a Free-man) that if he would entertaine us, and the Gold in his houſe ſecurely,
+<note place="margin">Pe<gap reason="illegible" resp="#UOM" extent="1 letter">
+                                    <desc>•</desc>
+                                 </gap>fect durance with the gold.</note> and procure us a Convoy to paſſe over-land, we would give him a large recompence; his an<g ref="char:EOLhyphen"/>ſwer was. That he did not dare to doe any ſuch thing, for by the <hi>Engliſh</hi> there he ſhould be forced to fly, and loſe all he had.</p>
+                           <p>Moreover, <hi>H. O.</hi> Merchant of the <hi>Endeavour,</hi> related unto me, <hi>T. H.</hi> That they would never have gone from <hi>Augu<g ref="char:EOLhyphen"/>ſtine</hi> Bay without the Gold for if they had not had it by faire meanes,
+<note place="margin">per fas, aut ne<g ref="char:EOLhyphen"/>fas.</note> they would have tooke it perforce; whereby I conceive we might have continued upon the Iſland for all them, if there had been no Gold.</p>
+                           <p>Moreover, after our arrivall at <hi>Madraſſapatan</hi> aforeſaid, it was credibly reported (and I doe verily beleeve it true) That that Factory was in very great want of ſupplies, the Factors diſ<g ref="char:EOLhyphen"/>poſing there formerly of their Gold chaines, and Silver buttons, to ſupply their great neceſſities; As further alſo appeared in their journall Letter, <hi>A.</hi> ending 5 <hi>Auguſt,</hi> 1644. haying the ſaid
+<pb n="19" facs="tcp:56498:14"/>Gold therein entred, and then ballanſing their Accompts, there was paid then to accompt of intereſt, 4095. Pagothies. <note place="margin">Quick conver<g ref="char:EOLhyphen"/>ſion.</note>
+                           </p>
+                           <closer>
+                              <signed>T. H,</signed>
+
+                           </closer>
+                           <postscript>
+                              <head>April 13. 1647. Poſtſcript.</head>
+                              <p>All or moſt of the Gold mentioned herein, as Duccats, Knobs, and Barres, were melted and quoyned into Pagodies, the coyne currant of <hi>Madraſſapatan</hi> aforeſaid, before my com<g ref="char:EOLhyphen"/>ming thence.</p>
+                              <closer>
+                                 <signed>T. H.</signed>
+                              </closer>
+                           </postscript>
+                           <postscript>
+                              <p>T. H. <hi>aboveſaid maketh Oath, that the contents of this Atteſtation are in ſubſtance true.</hi>
+                              </p>
+                              <closer>
+                                 <dateline>Jurat. <date>15. <hi>April,</hi> 1647.</date>
+                                 </dateline> 
+                                 <signed>R. A.</signed>
+                              </closer>
+                           </postscript>
+                           <argument>
+                              <p>The ſaid <hi>T. H.</hi> was formerly ſworne at the L. Bar.</p>
+                           </argument>
+                        </div>
+                     </body>
+                  </floatingText>
+               </q>
+               <p>This Affidavit (though very ſhort and ſparing, according to the Parties owne expreſſion) is no whit unſuitable to the fore<g ref="char:EOLhyphen"/>going Agreement, for <hi>C.</hi> and <hi>H.</hi> and all the 17.
+<note place="margin">Strange ſtories.</note> being never be<g ref="char:EOLhyphen"/>fore in <hi>India,</hi> were made beleeve ſtrange things; as firſt, No ſhips would come that yeare, Mr. <hi>Courtens</hi> ſhip <hi>Loyalty</hi> com<g ref="char:EOLhyphen"/>ming thither about two moneths after;
+<note place="margin">Jo. M. Captain at Liſbone with Rupert.</note> That <hi>Joanna</hi> was ſuch a very dangerous place, whereas about two moneths after, twenty two men of the ſaid Companies were left aſhore there by <hi>I. M.</hi> alias <hi>Mac O Neal,</hi> commander of their ſhip <hi>John.</hi>
+                  <note place="margin">Ship Tho. and John.</note> Now called Sir <hi>J. M.</hi> one of Prince <hi>R.</hi> cheife Captaines, late at <hi>Lisbone</hi> in <hi>Portugall,</hi> which ſaid twenty two men were all (ſave one) ſound and well, ſhortly after taken thence by one of Mr. <hi>Courtens</hi> ſhips, and carried for <hi>India,</hi> but the Gold was the maine buſineſſe, for after <hi>B.</hi> and <hi>O.</hi> had taken it in charge, it was never more after delivered to <hi>C.</hi> nor any of the reſt, but poſſitively by <hi>D.</hi> and the reſt upon all occaſions and demands denied, <hi>B.</hi> alledging his power to take the ſhip, much more the Gold; and <hi>D.</hi> al<g ref="char:EOLhyphen"/>lenging their Commiſſions not to ſave any of Mr. <hi>Courtens</hi> peo<g ref="char:EOLhyphen"/>ple from periſhing, with ſo much as a peece of bread;
+<note place="margin">Cruel Com<g ref="char:EOLhyphen"/>miſſions.</note> O ſtrange cruelty!</p>
+               <p>But from the Premiſes it is evident, that this gold belonged properly to Mr. <hi>Courten,</hi> and was abſolutely by him intended for the ſupply and reliefe of his Trade at <hi>Acheen,</hi> and in <hi>India,</hi>
+                  <note place="margin">The Golds proprietor.</note> and his plantation and diſcoverie of <hi>Madagaſcar, Aſſada,</hi> and the reſt, but the damage ſuſtained by the deniall, and unjuſt de<g ref="char:EOLhyphen"/>taining thereof, is almoſt incredible, and not eaſily apprehended,
+<pb n="20" facs="tcp:56498:15"/>for that very year 1644.
+<note place="margin">Loſſe incre<g ref="char:EOLhyphen"/>dible.</note> it prevented the return of four ſhips at leaſt (to my knowledge) two from <hi>India,</hi> and two or three from <hi>Acheen,</hi> all upon Mr. <hi>Courtens</hi> owne account, alſo cauſed the ſaile of about 300. tuns of goods at 40. <hi>per cent.</hi> loſſe, like<g ref="char:EOLhyphen"/>wiſe a dead Charge of Cuſtomes &amp; Factors,
+<note place="margin">Trade and Plantation de<g ref="char:EOLhyphen"/>ſtroyed.</note> Factories at <hi>Carwar, Raiapoore, Rabagg, Goa, Acheen</hi> and elſewhere for divers years together to a very great Summe, and utterly deſtroyed the Plan<g ref="char:EOLhyphen"/>tation of <hi>Madagaſcar</hi> by preventing recourſe of ſhipping with ſupplies, with many more damages and ſad inconveniences (beſides loſſe of trade ever ſince) ſo that <hi>(computat. computand.)</hi> 100000 <abbr>li.</abbr>
+                  <note place="margin">100000 <abbr>li.</abbr> per<g ref="char:EOLhyphen"/>ſonal loſſe, be<g ref="char:EOLhyphen"/>ſides National.</note> will not make good the perſonall and reall loſſe and damnification thereof to Mr. <hi>Courten</hi> (<hi>ult.</hi> Nationall) as by this following Charge, and the particulars therein expreſt may plainly appear.</p>
+               <p>
+                  <hi>Dragon</hi> and <hi>Katherine,</hi>
+                  <note place="margin">Dutch and Engliſh dam<g ref="char:EOLhyphen"/>nifications.</note> and other <hi>Dutch</hi> damnifications ad<g ref="char:EOLhyphen"/>ded, will amount the whole loſſe to 300000 <abbr>li.</abbr>
+               </p>
+            </div>
+            <div type="part">
+               <pb n="21" facs="tcp:56498:15"/>
+               <head>The Charge.</head>
+               <argument>
+                  <p>The <hi>Eaſt-India</hi> Company, Old, or New, or both, together with their Factors, now or late in <hi>Eaſt-India</hi> aforeſaid, (eſpecially <hi>R. B.</hi> Maſter, and <hi>H. O.</hi> Merchant of their Ship <hi>Endeavour,</hi> and <hi>F. D.</hi> their Agent at <hi>Madraſſapatan,</hi> and the reſt, are truly <hi>Chargeable,</hi> and duely <hi>Reſponſible</hi> for principall, and damage (by their miſdoings in <hi>India</hi> aforeſaid) To <hi>William Courten</hi> Eſquire, Son and Executor to Sir <hi>William Courten</hi> Knight, decea<g ref="char:EOLhyphen"/>ſed, <hi>viz.</hi>
+                  </p>
+               </argument>
+               <list>
+                  <item>
+                     <hi>TO ſundry ſorts of</hi> Barbary-<hi>Gold valued at</hi> 9000 Bar<g ref="char:EOLhyphen"/>bary <hi>Duccats,
+<note place="margin">May 24 1644.</note> which upon demand at Sea were delive<g ref="char:EOLhyphen"/>red aboard the ſaid Companies ſhip</hi> Endeavour, <hi>by</hi> T.C. <hi>late Maſter, and</hi> T. H. <hi>late Factour of the Ship</hi> Little-William <hi>of</hi> London, <hi>be longing to the aboveſaid</hi> William Courten <hi>Eſquire, to the ſaid</hi> R. B. <hi>Maſter, and</hi> Hen. O. <hi>Mer<g ref="char:EOLhyphen"/>chant; and by them taken in Charge in, or about the</hi> 24. <hi>of</hi> May, 1644. <hi>And by the ſaid</hi> Rob. <hi>and</hi> Hen. <hi>weighed with Rials of eight</hi> Spaniſh, <hi>weighing Rials of eight</hi> 1544. <hi>and one quarter, which with two Braſſe-guns (and intereſt and inſurance added) amounted at leaſt to</hi> 5000 <abbr>li.</abbr> 
+                     <hi>ſterling. All which the ſaid</hi> B. <hi>and</hi> O. <hi>delivered to</hi> F. D. <hi>the ſaid Companies Agent there at</hi> Madraſſapatan, <hi>&amp;c. which the ſaid</hi> D. <hi>&amp;c. denied upon all demands, detaining and converting the ſame to the ſaid Companies uſe: The proceed whereof was thence to</hi> Bantam, <hi>then to</hi> Jambee, <hi>and again to</hi> Bantam <hi>(all duties de<g ref="char:EOLhyphen"/>ducted) would amount at leaſt to</hi> 60. per cent. <hi>profit, which makes</hi> 8000 <abbr>li.</abbr> 
+                     <hi>and thence to</hi> England, cent. per cent. (ult. <hi>Intereſt ever ſince) amounts to</hi> 16000 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To charge of a Patamar or Footpoſt, about forty dayes tra<g ref="char:EOLhyphen"/>vell to and again to demand the ſame,</hi> 2 <abbr>li.</abbr> 18 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To charges alſo of</hi> Wal L. <hi>Factor, horſe and three men about ſix months, or</hi> 180. <hi>dayes at Rials Eight one and halfe</hi> per die. <hi>is</hi> 67 <abbr>li.</abbr> 10 <abbr>s.</abbr> 
+                     <hi>principall; to demand and proteſt for denying and detaining the ſame, which according to cuſtome there by ac<g ref="char:EOLhyphen"/>count, or the ſaid Companies pollicies here by Inſurance at</hi> 10<abbr>s.</abbr> per <hi>Rial of Eight amounts to</hi> 135 <abbr>li.</abbr> 10 <abbr>s.</abbr>
+                  </item>
+                  <pb n="22" facs="tcp:56498:16"/>
+                  <item>
+                     <hi>To fourteen days demourage of Ship</hi> Loyalty <hi>in</hi> Raiapore <hi>river to prepare againſt the</hi> Mallabars 150 <abbr>li.</abbr> 
+                     <hi>afterward eighteen days at</hi> Goa 150 <abbr>li.</abbr> 
+                     <hi>to attend for intelligence, and prepare for</hi> Acheen, <hi>and</hi> Madraſſapatan <hi>to demand the ſame, and upon intel<g ref="char:EOLhyphen"/>ligence afterwards ſent to</hi> Perſia <hi>principally for the ſame occaſi<g ref="char:EOLhyphen"/>on, and to meet there the ſaid ſhip</hi> Endeavor, <hi>reported gone thither, and for other proviſions and charges with Governours, Mer<g ref="char:EOLhyphen"/>chants, and others to obtain a fraight.</hi> 600 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To ten months more proviſions for the ſaid ſhips voyage, rialls of eight</hi> 800. <hi>at</hi> 10 <abbr>s.</abbr> per <hi>riall is</hi> 400 <abbr>li.</abbr> 10 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To dead fraight and demourage</hi> (ultr. <hi>breach of Covenant</hi>) <hi>demanded by the Owners,</hi> 12000 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To five months and thirteen dayes demourage of ſhip</hi> Tho. <hi>and</hi> Jo. <hi>at</hi> 180 <abbr>li.</abbr> per <hi>month is,</hi> 978 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To proviſions for the ſaid ſhip, rials of eight</hi> 400. <hi>at</hi> 10 <abbr>s.</abbr> per <hi>riall is,</hi> 200 <abbr>li.</abbr> 10 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To loſſe in ſaile of</hi> 1260 Candees,
+<note place="margin">Feb. 27. 1644.</note> Saltpeter, <hi>to Capt.</hi> Jer. Blackman <hi>(with other charges) at two and a half</hi> Pagothies <hi>great,</hi> per Candee, <hi>is pag.</hi> 3150. <hi>valued</hi> per <hi>peece rial of eight</hi> 1 <hi>and</hi> 3 <hi>quarters, is rials</hi> 5512 <hi>and a half at</hi> 10 <abbr>s.</abbr> per <hi>riall, is,</hi> 2756. <abbr>li.</abbr> 5 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To Cuſtomes of</hi> Raiapore <hi>contracted with</hi> Maſtapha Con. <hi>at</hi> 2500. pag. gr. per an. <hi>for ſix years loſſe is,</hi> 6555 <abbr>li.</abbr> 10 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To</hi> Piſhcaſhes <hi>or gifts to the ſaid</hi> Maſtapha Con. <hi>and other Creditors to pacifie them rials of eight</hi> 400. <hi>is,</hi> 200 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To charges of Factors and Factories at</hi> 2500 <abbr>li.</abbr> per an. <hi>pre<g ref="char:EOLhyphen"/>vented imployment ever ſince,</hi> 15000 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To charges of three ſhips to plant</hi> Madagaſcar; Sun, James, Heſter, <hi>deſtroyed for want of ſupplies.</hi> 12000 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To ſhip</hi> James <hi>ſold for want of trade.</hi> 3000 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To dead fraight, and other damages</hi> per <hi>ſhip</hi> Sun. 5000 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>
+                     <hi>To conſtant watch and Fortification of</hi> Carwar <hi>againſt</hi> Mal<g ref="char:EOLhyphen"/>labars, <hi>thereto provoked by the ſaid</hi> Eaſt-India <hi>Companies maſſacres, and depredations upon that coaſt.</hi> 500 <abbr>li.</abbr> 0 <abbr>s.</abbr>
+                  </item>
+                  <item>Summa Total. 75329 <abbr>li.</abbr> 3 <abbr>s.</abbr>
+                  </item>
+               </list>
+               <pb n="23" facs="tcp:56498:16"/>
+               <list>
+                  <head>Further Aſſertions, and probable Suggeſtions. <hi>viz.</hi>
+                  </head>
+                  <item>
+                     <hi>The loſſe of</hi> China-<hi>Trade, and</hi> 10000 <hi>Rials of Eight left there formerly much prevented by them, and now at laſt wholly diſappointed.</hi>
+                  </item>
+                  <item>
+                     <hi>To</hi> 2000 <hi>Rials of Eight, returned thence by Captaine</hi> Blackman, <hi>and left at</hi> Acheen, <hi>with Trade, Jewels, and Goods there ſeized by the ſaid Companies Factors, and loſt to an unknown value.</hi>
+                  </item>
+                  <item>
+                     <hi>To Ship</hi> Abigail, <hi>likewiſe conſigned thither, and loſt for want of ſupplies.</hi>
+                  </item>
+                  <item>
+                     <hi>To Ship</hi> Friendſhip, <hi>likewiſe then conſigned thither, but in like manner diſappointed and loſt.</hi>
+                  </item>
+                  <item>
+                     <hi>To</hi> 1000 <abbr>li.</abbr> per an. <hi>for ſeven years proffered for</hi> Raiapore, <hi>with</hi> Upland-trade, Harrapore Rab<gap reason="illegible" resp="#UOM" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>gg, <hi>and</hi> Vizrapore.
+<note place="margin">R. H.</note>
+                  </item>
+                  <item>
+                     <hi>To</hi> 7000 Pagothies <hi>great at</hi> Carwar (ultr. <hi>building, fortify<g ref="char:EOLhyphen"/>ing, and other great and continuall charges, conceived above</hi> 20000 li.) <hi>the onely Port of hopes and conſequence in poſſeſſion of</hi> Engliſh, <hi>now in great danger to be loſt to the</hi> Dutch <hi>or others, which will ſet a higher value upon it, then the inconſiderate</hi> Engliſh, <hi>as in my following</hi> Carwar <hi>conſiderations, I have more at large expreſſed, but I hope ſpeedy care will be taken for to ſecure the ſame.</hi>
+                  </item>
+               </list>
+               <list>
+                  <head>Adde hereto.</head>
+                  <item>
+                     <hi>The loſſe of</hi> Henry Bonaventure <hi>(laden homeward bound) upon</hi> Mauritius Iſland, <hi>and moſt of the ſhip and goods there ſaved by the</hi> Dutch.</item>
+                  <item>
+                     <hi>The ſhip</hi> Bon Eſperanza <hi>taken by the</hi> Dutch <hi>in the ſtraight of</hi> Malacca <hi>bound for</hi> China, <hi>and then</hi> (computat. computand.) <hi>principall and damage.</hi>
+                  </item>
+                  <item>
+                     <hi>The feet of this particular</hi> Charge, Engliſh <hi>and</hi> Dutch, <hi>will probably bear the whole body, and carry the Account to, or above the whole, or firſt Adventure,</hi> viz. 150000 <abbr>li.</abbr> (ultr. Dra<g ref="char:EOLhyphen"/>gon, <hi>and</hi> Katherine, <hi>and</hi> Propriety <hi>excluded.</hi>)</item>
+                  <item>Summa Total. 150000 <abbr>li.</abbr> ultr. &amp;c.</item>
+               </list>
+               <pb n="24" facs="tcp:56498:17"/>
+               <p>Laſtly,
+<note place="margin">Mr. Courtens new Aſſocia<g ref="char:EOLhyphen"/>tion.</note> Mr. <hi>Courten</hi> by the foreſaid miſ-doings and oppreſſion was ſo weakned in his eſtate, that (for the better ſupport of his trade) about <hi>Anno</hi> 1642. he was conſtrained thereby as well as by advice of friends) to aſſociate with Mr. <hi>M. T.</hi> Capt. <hi>J. B.</hi> and others adventurers (who were altogether ſtrangers in that trade,
+<note place="margin">Their practiſe.</note> but made ſuch uſe of his neceſſity (as ap<g ref="char:EOLhyphen"/>peared by the ſequel at home and abroad) whether by clandeſtine, private, and prejudiciall Contracts, and Covenants made with himſelfe at home (which plainly demonſtrates Mr. <hi>Courten</hi> a meer Gentleman, and no Merchant) or by compliance with his Agent or chiefe Factor then in <hi>India,</hi>
+                  <note place="margin">Jo. F. government.</note> Mr. <hi>Joh. F.</hi> a man howſoever otherwiſe able) yet of very corrupt principles and practiſes, and his government (being altogether a ſtranger there) proved exceeding damageable to his imployer (though very be<g ref="char:EOLhyphen"/>neficiall to himſelf, as might largely be demonſtrated but whether by the one, or the other, or however elſe ſeems impertinent to this Diſcourſe; onely this by the way, That when his Agents &amp; Factors in <hi>India</hi> preſumed they had,
+<note place="margin">20000 <abbr>li.</abbr> or thereabouts ſuppoſed, ſent home in ſun<g ref="char:EOLhyphen"/>dry ſhips</note> or might have ſent from thence, <hi>An.</hi> 1645. and 1646. (either upon Mr. <hi>Courtens</hi> own account, or in partnerſhip 7/16 in ſundry ſhips, or bottomes, <hi>viz.</hi> the <hi>Great-William,</hi> the <hi>Tho.</hi> and <hi>Jo.</hi> ſhip <hi>Heſter,</hi> and ſhip <hi>Sun,</hi> &amp;c.) an eſtate of or near twenty thouſand pounds, or upwards, proved but about five thouſand pound,
+<note place="margin">5000 <abbr>li.</abbr> left at Livorne. Mr. Courten ſupplanted.</note> and that left at <hi>Livorne</hi> by the ſaid Cap. <hi>J. B.</hi> in the hand of the <hi>Eaſt-India</hi> Companies Agent there (as reported) and by him long detained, which with the Pre<g ref="char:EOLhyphen"/>miſes hath wholy interrupted and ſupplanted him in the courſe of his Trade, and ſupplies of his Factories and Plantations in <hi>India,</hi> and much prevented the payment of debts both here and there, as alſo the Cuſtomes of <hi>Raiapore</hi> contracted with <hi>Muſtapha Con.</hi> to whom the ſaid <hi>Joh. F.</hi> (with extraordinary charge to his imployer) went to <hi>Vizapore An.</hi> 1645.
+<note place="margin">Raiapoor Cu<g ref="char:EOLhyphen"/>ſtomes 1125 <abbr>li.</abbr> per an</note> purpoſely (when all ſupplies failed) to conclude and take off the dead charge of con<g ref="char:EOLhyphen"/>tracted Cuſtomes of 2500. pag. gr.<hi>per an.</hi> which is about 1125 l. <hi>per an. Engliſh,</hi> but what was done therein, is to me altogether un<g ref="char:EOLhyphen"/>known and uncertain, onely gather from common report, that the ſaid <hi>Muſtapha Con.</hi> and his governour at <hi>Raiapore</hi> (or others in their ſtead) ſtill requires the ſame from the preſent Traders (the Old and New <hi>Eaſt-India</hi> Company from whence peradventure they may pretend themſelves Creditors,
+<note place="margin">Plea for the ſame</note> notwithſtanding they
+<pb n="25" facs="tcp:56498:17"/>have wholly deprived and diſabled him at home, and abroad of all ſupplyes and payments, yet peradventure he muſt be preten<g ref="char:EOLhyphen"/>ded a great Debtor to the preſent Traders for the ſame.</p>
+               <p>Thus you have the concluſion and ſad Cataſtrophe of <hi>William Courten</hi> Eſquire, and his <hi>Eaſt-India</hi> Trade,
+<note place="margin">Mr. Courten's Cataſtrophe. His friends in<g ref="char:EOLhyphen"/>conſtancy, his deſtruction their beſt foun<g ref="char:EOLhyphen"/>dation.</note> together with di<g ref="char:EOLhyphen"/>vers of the paſſages, tranſactions, and Myſteries thereto apper<g ref="char:EOLhyphen"/>taining, formerly by himſelfe and others freely and frequently communicated to his foreſaid Aſſociates, and ſuppoſed Friends, now by them transferr'd to his profeſt Adverſaries, whoſe prin<g ref="char:EOLhyphen"/>tiples and practiſes therein hitherto never declared them good Common-wealths-men, but rather contrary; but now procee<g ref="char:EOLhyphen"/>ding upon another's principles and foundation, better things may be expected.</p>
+               <trailer>YEt further for information;</trailer>
+            </div>
+            <div type="part">
+               <head>Informations, conſideration, and reaſons.</head>
+               <p>If neither the conſideration of the good ſucceſſe and government of forreigne Nations, nor fifty years ſad and wofull tryall of our owne Nation, nor the generall forbearance of thoſe of experience (and enricht at home and abroad by that imployment) to adventure in their joynt Stock, nor the un<g ref="char:EOLhyphen"/>willingneſſe of the former Mannagers (though moſt incompetent) to reſigne to others, (for errours accuſtomed, as aforeſaid, are not eaſily removed) nor the abaſing and villifying of our owne Natives, and native Commodities under one Buyer, and Expor<g ref="char:EOLhyphen"/>ter, nor the advancing and enriching of Forreigners, and forreigne Commodities under one Seller and Importer, nor the prevention of the increaſe and imployment of abundance of Ships, Mariners, and Merchandizers, nor the generall prevention of Arts, Indu<g ref="char:EOLhyphen"/>ſtries, and Manufactures, many by reſtraint forced (contrary to their affections and abilities) to ſome unpleaſing home-bred im<g ref="char:EOLhyphen"/>ployments, with many other Morall reſpects;
+<note place="margin">Morall and re<g ref="char:EOLhyphen"/>ligious conſi<g ref="char:EOLhyphen"/>derations.</note> yet in a religious conſideration and obſervation, thoſe that beleeve Hiſtory and Myſtery, Divine and Humane to be inſeparable, co-operating concomitants in the courſe of Gods providence, to accompliſh the Decree, and the good pleaſure of his Will revealed in his Word, either for weale or woe, (whether to Perſon, Nation, Society, or Incorporation) will plainly perceive, that the ſupine neglect of Plantations, relating to the great worke of Creation,
+<note place="margin">Creation, and Redemption.</note> likewiſe the neglect of Evangelicall injunctions, and diſpenſations by Goſpell promulgations, and propagations, relating to the glorious worke
+<pb n="26" facs="tcp:56498:18"/>of Redemption, are tranſgreſſions of a high provocation; and who knowes but for this very cauſe,
+<note place="margin">Heavie Judge<g ref="char:EOLhyphen"/>ments.</note> Heaven may be juſtly offen<g ref="char:EOLhyphen"/>ded? then muſt earth of neceſſity be puniſhed, and ſo the judge<g ref="char:EOLhyphen"/>ments and deſignes of worldly wiſe men infatuated, and blaſted, and thus this Common-wealth already becomes fruſtrated,
+<note place="margin">Common-wealth preven<g ref="char:EOLhyphen"/>ted, 8. or 1000000. <abbr>li.</abbr> per annum.</note> and prevented of a probable poſſibility (compar'd with the <hi>Dutch</hi>) of profit and advance at leaſt 8. or 1000000. <abbr>li.</abbr> 
+                  <hi>per annum,</hi> beſides Honours, and other Emoluments unconceiveable; And (accor<g ref="char:EOLhyphen"/>ding to the Embleme and Motto in the Frontiſpeece) Whither the deviation of this Company in point of <hi>Policy,</hi>
+                  <note place="margin">The Embleme diſplayed.</note> or the Aber<g ref="char:EOLhyphen"/>ration of the Papacy in point of <hi>Piety</hi> be of greater extent and tranſcendencie, is a Riddle for me too high to reach; I can<g ref="char:EOLhyphen"/>not read: but ſurely both their dayes are numbred, and ere long their yeares will be expired; but I would not willingly en<g ref="char:EOLhyphen"/>ter into a Controverſie (being ſenſible of my owne inſufficiency) but rather humbly ſubmit,
+<note place="margin">Whither one, two, or no joynt Stocks beſt.</note> and commit the ſame to the grave judgements of thoſe at the Helme, and in Authority, whether one or two joynt Stocks, or none (ſave regulated Societies, or Aſſociations for <hi>Eaſt-India</hi> Trade, are moſt requiſite and ne<g ref="char:EOLhyphen"/>ceſſary to advance, and enrich this Common-wealth) though former experience here clearly evinceth to all (if joynt Stocke muſt be continued) two better then one, and that for many good reaſons? But if the Common-wealth of <hi>Ireland</hi> be inclu<g ref="char:EOLhyphen"/>ded,
+<note place="margin">Ireland conſi<g ref="char:EOLhyphen"/>derable.</note> then doubtleſſe without diſpute, upon undeniable grounds, two at leaſt will be of abſolute neceſſity, and in the apprehenſion of ſome of experience, a ſecond conſtitution may have a farre better foundation (in this worſt time of Trade) then the for<g ref="char:EOLhyphen"/>mer, and ſo expect better ſucceſſe; for to ſome of obſervation and judgement,
+<note place="margin">A foundation laid in bloud ſhall not proſ<g ref="char:EOLhyphen"/>per.</note> it reſts yet very doubtfull (for I muſt neither dawb nor diſſemble) whether this be not laid deep in bloud and Oppreſſion, as the premiſes partly diſcovers; beſides much more may be ſaid to that particular, wherein I will be ſparing.</p>
+               <p>But ſeeing this Diſcourſe hath led us thus farre, let us pro<g ref="char:EOLhyphen"/>ceed a little further,
+<note place="margin">A good foun<g ref="char:EOLhyphen"/>dation and conſtitution. New doctrine to the old Company.</note> and conſider that a good foundation and conſtituion ought to be laid and framed, on, and upon the beſt principles, and grounded upon the beſt reaſons; which doctrin of Trade, however new to the Old <hi>Eaſt-India</hi> Company (who for their time therein ought to be Teachers) becauſe oppoſite or di<g ref="char:EOLhyphen"/>verſe
+<pb n="27" facs="tcp:56498:18"/>from their general Government &amp; concluding it il hitherto; yet it ſhall alſo be ſo true and rationall, for Information,
+<note place="margin">For informa<g ref="char:EOLhyphen"/>tion, confirma<g ref="char:EOLhyphen"/>tion, and con<g ref="char:EOLhyphen"/>futation.</note> Confir<g ref="char:EOLhyphen"/>mation, and Confutation, that (I hope) 'twill (in knowing judgements) hardly admit any oppoſition or contradiction, and ſhall be briefly included in two or three lines,
+<note place="margin">Three Eaſt-India Princi<g ref="char:EOLhyphen"/>ples.</note> being Principles or Poſitions gathered from ſerious, long, and laborious conſidera<g ref="char:EOLhyphen"/>tion, obſervation and experience, <hi>Engliſh, Dutch,</hi> and <hi>Portu<g ref="char:EOLhyphen"/>gall,</hi> for the good of this Common-wealth, as followeth, viz.</p>
+               <list>
+                  <head>Three <hi>Eaſt-India</hi> Principles, <hi>(i.e.)</hi>
+                  </head>
+                  <item>1. <hi>THat none reſident in England can governe Eaſt-India Trade, but in a known way of prejudice to ge<g ref="char:EOLhyphen"/>nerall Adventurers.</hi>
+                  </item>
+                  <item>2. <hi>That none reſident in India (under a forreigne Government) can mannage that Trade, but greatly diſ<g ref="char:EOLhyphen"/>honour and damnifie this Common-wealth.</hi>
+                  </item>
+                  <item>3. <hi>That no place or places, now poſſeſt by any Engliſh there much conſiderable [ſave Carwar] one of Mr.</hi> Courtens <hi>Factories.</hi>
+                  </item>
+               </list>
+               <p>With the two firſt, relating to the Company, I will not meddle further, till they finde oppoſition.</p>
+               <p>With the laſt, more particularly relating to Mr <hi>Courten,</hi> I will a little expatiate in ſome Carwar conſiderations, to illuſtrate the ſame.</p>
+            </div>
+            <div type="part">
+               <head>Some Carwar Conſiderations demonſtrating the ſame laſt Principle, viz.</head>
+               <argument>
+                  <list>
+                     <item>THat it is the free purchaſe and poſſeſſion of Sir <hi>William Cour<g ref="char:EOLhyphen"/>ten,</hi> with a great ſumme of money many yeares ſince.</item>
+                     <item>That it is built, fortified, and maintained ever ſince, with ex<g ref="char:EOLhyphen"/>traordinary care and coaſt, and that it is moſt commodiouſly ſci<g ref="char:EOLhyphen"/>tuated for Road, Bay, River, and ground, for a generall Randez<g ref="char:EOLhyphen"/>vouz to and fro all parts of <hi>India,</hi> for order and regulation.</item>
+                  </list>
+               </argument>
+               <pb n="28" facs="tcp:56498:19"/>
+               <p>Note that all theſe particulars are of abſolute neceſſity, beſides, the capacity of the place will containe a Coliony, or Hantation of 10000. people, more apt and fit for imployment there, upon every occaſion by Sea and Land, then from <hi>England</hi> in many yeares can be attained.</p>
+               <p>And I am very confident if the <hi>Dutch</hi> once poſſeſſe it, as they have often deſired,
+<note place="margin">Dutch valuati<g ref="char:EOLhyphen"/>on of Carwar.</note> that 100000 <abbr>li.</abbr> ready money will not re<g ref="char:EOLhyphen"/>deeme it out of their hands.</p>
+               <p>And in point of Government, it is moſt neceſſary for a generall Court of Merchants, not only for diſpoſing, ordering, and regula<g ref="char:EOLhyphen"/>ting, but alſo for preventing private and other inconveniences in Trade, without the unconceiveable damage of delay, and in that equipage much prevent thoſe continuall diſturbances, injuries, and oppreſsions from Chriſtians and Heathens hitherto ſuſtained.</p>
+               <p>Likewiſe it will ſecure and ſecret both perſons, and all ſorts and quantities of Commodities, from force, or notice of the Natives, with great advantage to the Adventures, which in the courſe of the old Company never was, or can be done, either at <hi>Surrat,</hi> or <hi>Bantam,</hi> their Meteropolitan Factories, and prevent a loſſe in ſale of goods (beſides Cuſtoms) of 10. or 12. <hi>per cent.</hi> at leaſt, which under a forreigne government cannot be avoyded.</p>
+               <p>Furthermore, there is ſtore of Timber to build Veſſels, with one halfe of the charge uſuall at <hi>Surrat,</hi> alſo up the river at <hi>Ca<g ref="char:EOLhyphen"/>dran,</hi> and thereabouts only, is that admirable Timber of <hi>Teca,</hi> for Planke and Sheathing under water, a ſingular preſervative a<g ref="char:EOLhyphen"/>gainſt that common ſhip-deſtroying water-worme.</p>
+               <p>It is alſo the only Pepper Coaſt from <hi>Cape bon Eſperanze,</hi> to <hi>Cape Commereen,</hi> or <hi>Cannereen,</hi> and the only knowne coaſt in the world for <hi>Cardamomes,</hi> or <hi>Graines of Paradize,</hi> (a generall Commodity,) with many moe accommodations for trade and ſhipping for the benefit of Adventurers, too tedious to relate.</p>
+               <p>Moreover, it is ſcituate neare <hi>Salſet,</hi> a pleaſant and fertile place (about a Counties compaſſe, inhabited by <hi>Portugall, Can<g ref="char:EOLhyphen"/>nereen</hi> Chriſtians, living under oppreſsion, being willing and of power to free themſelves, and deſirous the <hi>Engliſh</hi> were in a ca<g ref="char:EOLhyphen"/>pacity to protect them, which (well peopled) in caſe of Contro<g ref="char:EOLhyphen"/>verſie, would curbe and controle as well the <hi>Portugall,</hi> as others, and the only meanes to become there and elſewhere checkmate with the <hi>Dutch,</hi> who are now become Lords, and Protectors
+<pb n="29" facs="tcp:56498:19"/>over all <hi>India,</hi> by the Companies ſubmiſsion, neglect, and ge<g ref="char:EOLhyphen"/>nerall bad Government. Much more might be ſaid in point of propriety, and otherwiſe if occaſion preſent.</p>
+               <p>IF one of Mr. <hi>Courtens</hi> Factories ſo well ſcituated, purchaſed,
+<note place="margin">Carwar coſt and conſe<g ref="char:EOLhyphen"/>quence.</note> planted, fortified, and defended (with the charge at leaſt of 20000. <abbr>li.</abbr> hitherto) with all or more adjuncts and accommoda<g ref="char:EOLhyphen"/>tions then formerly expreſt) can be of ſuch high conſequence and concernment in relation to that Trade, as indeed it is; and if all the Companies Factories in <hi>India</hi> put together, cannot afford ſcarſe any one of theſe particulars, either for ſcituation or accom<g ref="char:EOLhyphen"/>modation, as indeed they cannot;
+<note place="margin">Dutch can di<g ref="char:EOLhyphen"/>ſturbe when they-pleaſe.</note> for the <hi>Dutch</hi> can diſturbe the Nations, and ſo diſplace them at pleaſure; then of neceſsity it muſt be concluded of more value then any, or all poſſeſt there by any other <hi>Engliſh</hi> whatſoever.
+<note place="margin">New Model<g ref="char:EOLhyphen"/>lers warned to prevent loſſe of Carwar. The Authors letter.</note> And that it might be made knowne to the Company, and new Modellers to be ſo in deed, and in truth, and to prevent the loſſe thereof, I thought it not amiſſe <hi>(intr. alias)</hi> to certifie ſo much in writing in <hi>December,</hi> 1649. delivered Mr. <hi>M. T.</hi> and by him ſaid to be communica<g ref="char:EOLhyphen"/>ted to the <hi>Mandareen,</hi> or Governour, &amp;c. of the ſaid Company, and for theſe ten or twelve yeares by paſt, I have not been ſparing,
+<note place="margin">His paines and charge.</note> or penurious either of my paines, or papers, at my owne coſt and charge, but rather prodigall and ſuperfluous (though to my ex<g ref="char:EOLhyphen"/>ceeding great prejudice) to inform and beget a true,
+<note place="margin">His damage.</note> and right un<g ref="char:EOLhyphen"/>derſtanding of this Trade of Trades (for the good of this Com<g ref="char:EOLhyphen"/>mon-wealth) both amongſt the Nobility, Gentry, Commonalty,
+<note place="margin">His damage. Nobility, Gen<g ref="char:EOLhyphen"/>try, Commo<g ref="char:EOLhyphen"/>nalty.</note> as (amongſt many others) may appeare by a large Paper-booke, left with that worthy Patriot Sir <hi>H. M.</hi> ſome yeares ſince,
+<note place="margin">Sir H. M. a<g ref="char:EOLhyphen"/>bove three yeares ſince. <hi>Mr. M. T.</hi> &amp;c. inductions and inſtructions. Beſt Judge<g ref="char:EOLhyphen"/>ments and Principles. An admoni<g ref="char:EOLhyphen"/>tion. Want of expe<g ref="char:EOLhyphen"/>rience, or will may prejudice.</note> and were Novices therein, and from whence Mr. <hi>Courten,</hi> and o<g ref="char:EOLhyphen"/>thers relating to him (and not by revelation or experience of one Voyage) they had ſuch informations and inſtructions in the knowledge and myſteries of that Trade, that they are and may taken for the beſt preſent judgements of that Society, becauſe of their Principles, yet (for a common good) let them not pre<g ref="char:EOLhyphen"/>ſume too much thereupon, for it will ſurely come to paſſe, that many former tranſ-actions of that Trade with other Nations, or our owne, may come in controverſie, where want of experience and knowledge in ſome, may command their ſilence, and want of
+<pb n="30" facs="tcp:56498:20"/>will in others for ſhame, or by-reſpects of damage, or diſhe<g ref="char:EOLhyphen"/>nour, may cauſe forbearance; and ſo a good Cauſe and the Common-wealth may ſuffer, for want of men of integrity, and ability,
+<note place="margin">The Authors grievance.</note> hitherto neglected, and ſleighted; and as on the one ſide by violence, ſo on the other by their cloſe and ſubtile deal<g ref="char:EOLhyphen"/>ing (ſuppoſed thereby much to diſable Mr. <hi>Courten</hi> to pay wa<g ref="char:EOLhyphen"/>ges,
+<note place="margin">5000. <abbr>li.</abbr> cau<g ref="char:EOLhyphen"/>ſed travel, that the Statute, &amp;c.</note> and debts to his Factors, which reſts upon their owne con<g ref="char:EOLhyphen"/>ſcience, diſcoveries, and ſo the diſpoſing of that 5000. <abbr>li.</abbr> at <hi>Li<g ref="char:EOLhyphen"/>vornia,</hi> being a ſpeciall motive to his travell and abſence, and that principall Plea for the Statute iſſuing. But I make too great a digreſsion.</p>
+               <p>Yet it comes into my minde, that it will be very neceſſary firſt to anſwer ſome Objections that may be made by ſome, in be<g ref="char:EOLhyphen"/>halfe of the foreſaid Company. viz.</p>
+               <p>Some will here Object, and ſay, <hi>You bring ſtrange and uncouth things to us indeed, which we ſcarce ever heard of, the</hi> Eaſt-India <hi>Company we know in City, Court,</hi> Weſtminſter Hall <hi>have abundantly exclaimed, and enveyed againſt Mr.</hi> Courten <hi>publickly,
+<note place="margin">Another ob<g ref="char:EOLhyphen"/>jection.</note> and frequently before the late King, and this preſent Parliament, by pleadings and printings, exhibited to Lords, Commons, and ſundry Committees, &amp;c. and elſewhere; if you can, lets know the matter.</hi>
+               </p>
+               <p>'Tis very true, they have ſo indeed, and all about interloping Trade,
+<note place="margin">Part of their 5. Argument.</note> and depardations, which depradations they are bound to make good (as themſelves ſay in their ſix ſmooth printed Arguments) and if to make good others depradations, then ſurely much more their owne; But their actions hitherto are al<g ref="char:EOLhyphen"/>together contrary to their expreſſions, and they proceed to in<g ref="char:EOLhyphen"/>ſtance their ſmart thereby, as it lyes in the latter end of their fifth Argument (as I remember) ſaying, <hi>C.</hi> and <hi>E.</hi> in the red Sea, and Capt. <hi>W.</hi> in <hi>China,</hi> and at <hi>Meſulapatan,</hi> &amp;c.</p>
+               <p>The deepeſt waters commonly make leaſt noiſe; well, but to matter of Fact,
+<note place="margin">C. and E. Matter of fact.</note> 
+                  <hi>viz. C.</hi> and <hi>E.</hi> in the <hi>Red-ſea,</hi> &amp;c. This <hi>C.</hi> and <hi>E.</hi> it ſeems by Mr. <hi>Endimion Porter,</hi> the late Queen and others, purchaſed a Patent under the Great-Seal of <hi>England</hi> for a <hi>Red-ſea</hi> voyage, being there, tis probable they took and robbed ſome <hi>Moores</hi> Veſſels or Junks, trading thither from <hi>India;</hi> that done. <hi>C.</hi> and <hi>E.</hi> went to <hi>Molalah</hi> (one of foure <hi>Maiotto</hi>-Iſlands near <hi>Madagaſcar</hi> as reported) to trim and victuall; and
+<pb n="31" facs="tcp:56498:20"/>ſo in the interim, the complaint came by the <hi>Moores</hi> from the <hi>Red-ſea,</hi> to <hi>India,</hi>
+                  <note place="margin">Comp. Pr. arre<g ref="char:EOLhyphen"/>ſted.</note> and procured an Arreſt upon the Com<g ref="char:EOLhyphen"/>panies Preſident there, (as it was afterwards related in <hi>England</hi>) thereupon the ſaid Preſident diſ-ſpeeded the ſaid Companies ſhip <hi>Diſcovery</hi> from <hi>Surrat</hi> (Mr. <hi>J. P.</hi> Commander) who arriving at <hi>Molalah</hi> aforeſaid,
+<note place="margin">Jo. P. ſurpriſed C. and E.</note> found and ſeized upon the ſaid <hi>C.</hi> and <hi>E.</hi> and their ſhip or ſhips, as they were triming and refreſhing there, and ſo ſerved them as they had done the <hi>Moores,</hi> took from them what they had (making prize of them) brought all their ſtoln goods to the foreſaid Preſident for the ſaid <hi>Eaſt-India</hi> Company, and (if we may beleeve the re<g ref="char:EOLhyphen"/>port of one well knowing the paſſage) the Company got thereby ten or twelve thouſand pound,
+<note place="margin">Mr. T.K.</note> and made no ſatisfaction to the <hi>Moores,</hi> but whether they did or no, what is all this to Mr. <hi>Courten,</hi> more then to the Man in the Moon? that they ſhould (even againſt common reaſon) ſo continually and violently urge it, to the great damage and diſhonour of Mr. <hi>Courten;</hi>
+                  <note place="margin">Com. plea un<g ref="char:EOLhyphen"/>reaſonable and abſurd.</note> for if thoſe <hi>Moores</hi> had been <hi>Mallabars</hi> (who likewiſe traded thither) then Mr. <hi>Courten</hi> had furthered a deſigne for his own deſtructi<g ref="char:EOLhyphen"/>on, which is abſurd to imagine?
+<note place="margin">Principles con<g ref="char:EOLhyphen"/>firmed from themſelves.</note> But this clearly confirms my principles from themſelves in that particular of living under a forreigne government, what inconveniences, damage and diſho<g ref="char:EOLhyphen"/>nour they are ſubject to continually without remedy, as well under heathens as Chriſtians? Beſides, it was ordinary twenty or thirty years agoe (when the ſaid Company had more power and credit in <hi>India</hi> then I ſuppoſe now they have) for the Preſidents of <hi>Surrat</hi> (when their ſhips (according to the ſeaſon) were gone thence) to be not onely impriſoned, but <hi>Chawbuckt</hi> or <hi>Strapte,</hi>
+                  <note place="margin">Mr. <hi>T.</hi> K. M. R. twice Preſi<g ref="char:EOLhyphen"/>dents impriſo<g ref="char:EOLhyphen"/>ned, &amp;c.</note> or ſore threatned, for their owne depredations, or other miſde<g ref="char:EOLhyphen"/>meanours, or diſguſt given to the <hi>Moores</hi> when there was no <hi>C.</hi> or <hi>E.</hi> in that Country, witneſſe Mr. <hi>K.</hi> (now, or late of their Committee) who was twice Preſident there, likewiſe Mr. <hi>R.</hi> and others, therefore this Preſident (if there had been no <hi>C.</hi> and <hi>E.</hi>) muſt not look to ſcape better then his predeceſſors; this onely would have been the difference he would have borne it with ſilence as the reſt did, but theſe frivolous and unreaſonable clamours too plainly demonſtrate ſome other cauſe, which they are not willing to expreſſe in plaine tearms,
+<note place="margin">Comp. diſcove<g ref="char:EOLhyphen"/>ries an evill eye A myſtery. All factories recalled.</note> which could be no other then an evill eye at his <hi>India</hi> Trade, and that likewiſe they
+<pb n="32" facs="tcp:56498:21"/>might have prevented if there had not been ſome myſtery there<g ref="char:EOLhyphen"/>in;
+<note place="margin">A myſtery. All factories recalled.</note> for when Mr. <hi>Courten</hi> preſently after his fathers death (it ſeems) recalls all his Fathers Factories in <hi>Europe, Aſia, Africa,</hi> and <hi>America,</hi> (onely this of <hi>Eaſt-India</hi>) and of this an overture or proffer (with conſiderable loſſe) was made, when the voyage was but newly begun,
+<note place="margin">Eaſt-India Trade profer<g ref="char:EOLhyphen"/>red.</note> and exceeding hopefull; but that proffer was refuſed (by report) upon very unreaſonable tearms, for cauſes beſt known to themſelves, and which I leave to others to imagine, as to that Company,
+<note place="margin">Dutch deſign of Dr. and Ka. known or ſuſ<g ref="char:EOLhyphen"/>pected. Mr. Courten never intended a Merchant.</note> but as to Mr. <hi>Courten,</hi> I will give this note upon it, That in the leaſt (thereby it appears) he intended not to be a Merchant, his education being far otherwiſe, but thereto meerly conſtrained by an accidentall Executorſhip, as by his pre<g ref="char:EOLhyphen"/>ſent revocation of all trade, and endeavouring this, plainly ap<g ref="char:EOLhyphen"/>peared.</p>
+               <p>But as concerning the Preſidents at <hi>Surrat,</hi> if they have ſcaped better of late years then formerly;
+<note place="margin">The Moors ap<g ref="char:EOLhyphen"/>prehenſions of the induſtri<g ref="char:EOLhyphen"/>ous Engliſh.</note> truly the beſt reaſon that can be rendred thereof, is the Expedition of Sir <hi>William Courten,</hi> for the <hi>Moores</hi> at <hi>Surrat</hi> then perceiving that the induſtrious <hi>Engliſh</hi> could finde trade enough elſewhere, would uſe them with more civility, leſt they ſhould be deprived of them, and their money, other reaſon I know none.</p>
+               <p>But I well remember this very particular of <hi>C.</hi> and <hi>E.</hi> was ve<g ref="char:EOLhyphen"/>hemently urged by Mr. <hi>G.</hi> (then the Companies Councell,
+<note place="margin">Mr. G. Councel late K &amp;c. 10 Decem. 1639.</note> and Cities Recorder) before the late King, and a full Councel-board the tenth of <hi>December,</hi> 1639. when the ſaid Companie pre<g ref="char:EOLhyphen"/>vented the Earles of <hi>A.</hi> and <hi>S.</hi> their planting <hi>Mauritius</hi> and <hi>Madagaſcar</hi> Iſlands (no little diſcourteſie to this Common-wealth) and the ſaid <hi>G.</hi> and Company ſtill preſsing earneſtly this buſineſſe of <hi>C.</hi> and <hi>E.</hi> againſt Mr. <hi>Courten;</hi>
+                  <note place="margin">The Dutch preſently poſ<g ref="char:EOLhyphen"/>ſeſt Mauritius wholly, and ſet<g ref="char:EOLhyphen"/>led upon Ma<g ref="char:EOLhyphen"/>dagaſcar. The late Kings teſtimony.</note> The King then ſud<g ref="char:EOLhyphen"/>denly roſe up, and ſpake to the ſaid Company thus: <hi>Gentlemen,</hi> I pray let me hear no more of it, and what you have ſuffered by it, I will ſee it ſatisfied ſome other way; but for Mr. <hi>Courten</hi> to my knowledge he had nothing to do with it: yet notwith<g ref="char:EOLhyphen"/>ſtanding this teſtimony, the ſearch and view of accounts, and what other ſatisfaction could be deſired, they ſtill perſiſted by troops (having <hi>Baals</hi> oddes, and <hi>Demetriu</hi>'s advantage) to ſo<g ref="char:EOLhyphen"/>licite Parliament and Committees with the ſame continually for many yeares together,
+<note place="margin">Baals Odds.</note> and never could prove any thing, being impoſſible in relation to Mr. <hi>Courtens</hi> depredations,
+<pb n="33" facs="tcp:56498:21"/>and for that very cauſe of depredations ('twas reported) Sir <hi>William Courten</hi> would never adventure with the ſaid Company,
+<note place="margin">Sir Wil. Cour<g ref="char:EOLhyphen"/>tens reaſon.</note> but I rather thinke his judgement did therein direct him (being an extraordinary induſtrious and judicious Merchant) perceiving the ſaid Company in no rationall or thriving way of management, or governement.</p>
+               <p>But it ſo came to paſſe afterward,
+<note place="margin">Comp. depre<g ref="char:EOLhyphen"/>dations.</note> that Mr. <hi>Courten</hi> was admit<g ref="char:EOLhyphen"/>ted by a Committee to prove the ſaid Companies depredations (which was by ſome conceived an extraordinary courteſie) but the firſt witneſſe was no ſooner entered upon diſcovery, but was pre<g ref="char:EOLhyphen"/>ſently ſilenced, and ſuffered to proceed no further, and therefore formerly whoſoever ſolely appeared to oppoſe them, muſt firſt be ſure of <hi>Micaiah's</hi> cauſe and confidence,
+<note place="margin">Micaiah and Paul.</note> and <hi>Paul's</hi> perſwaſion and full aſſurance, as it was long ſince with Mr. <hi>R. S.</hi> (before he was a Parliament man in oppoſition to Sir <hi>H. G.</hi> Sir <hi>N. C.</hi>
+                  <note place="margin">Mr. R. S. now an hon. Mem<g ref="char:EOLhyphen"/>ber of State. Pop Con. Sir H.V. ſenior</note> Mr. <hi>C.</hi> Mr. <hi>M.</hi> (and the reſt of that then Royall Company not a few) who pleaded boldly and judiciouſly before a Committee in the inner Chequer Chamber (Sir <hi>H.V. ſenior</hi> Chareman) who very diſcreetly noting the advantage of oddes, gave him good encouragement in the prohibition of their uncivill interruption.
+<note place="margin">C. &amp; E. ended.</note> And thus much concerning <hi>C.</hi> and <hi>E.</hi> ſhall ſuffice.</p>
+               <p>NOw to proceed <hi>viz.</hi> And Captaine <hi>W.</hi> in <hi>China,</hi>
+                  <note place="margin">Cap. W. in China, part of their fifth Ar<g ref="char:EOLhyphen"/>gument.</note> and at <hi>Me<g ref="char:EOLhyphen"/>ſulapatan,</hi> &amp;c. Here's news indeed! Cap. <hi>W.</hi> in <hi>China!</hi> for he was the firſt <hi>Engliſh-man</hi> in <hi>China</hi> that ever traded upon <hi>Engliſh</hi> account. But if you will know the reaſon in good earneſt, why both <hi>Dutch</hi> and <hi>Engliſh</hi> ſo rage and envy thereat, you will finde it to be this, The fear of damage, by competition, in the one,
+<note place="margin">Dutch and Engliſh true reaſons, not their pretended difference with the Portugals. Dutch Doubts.</note> and of ſhame and diſhonour in the other: For if ever the <hi>Engliſh</hi> attain a <hi>China</hi> and <hi>Japan</hi> Trade (which will be very difficult now) and all, or part of their right in the Spice Iſlands, and elſe<g ref="char:EOLhyphen"/>where, as <hi>Ormus</hi> &amp;c. (all hitherto with incredible prejudice neglected) and then the ſame managed with diſcretion, the <hi>Dutch</hi> will ſoon finde and feel a diminution of their preſent wealth and glory?</p>
+               <p>And as for the <hi>Engliſh;</hi>
+                  <note place="margin">Eng fear, and ſhame. Sir Wil. Cour<g ref="char:EOLhyphen"/>tens new do<g ref="char:EOLhyphen"/>ctrine and exp<g ref="char:EOLhyphen"/>ample.</note> What a ſhame and diſhonour to them after-forty or fifty years experience, to be taught the prin<g ref="char:EOLhyphen"/>ciple of <hi>Eaſt-India</hi> Trade by one never there? (as indeed they were then by Sir <hi>William Courten</hi>) and at preſent by Mr. <hi>T.</hi>
+                  <pb n="34" facs="tcp:56498:22"/>and the new Modellers proceeding upon the very ſame grounds and principles) and that in one voyage,
+<note place="margin">Firſt return clear firſt Ad<g ref="char:EOLhyphen"/>vent.</note> if his deſigne had not been envied and maligned (and the <hi>Dragon</hi> and <hi>Katherine</hi> come home as well as the <hi>Sunne</hi>) would probably have more then cleared the firſt adventure of 150000 <abbr>li.</abbr> and have left a conſiderable ſtock and foundation of Trade for poſterity,
+<note place="margin">Comp. then no foundation. Fort St. George built ſince by A. C.</note> far better then the Com<g ref="char:EOLhyphen"/>panies, then having no foundation with all their expence of time, and vaſt ſtocks of Nationall treaſure, the like never known in <hi>Europe;</hi> And for theſe reaſons principally it highly concerned both parties to endevour and agree his ruine.</p>
+               <p>The <hi>Dutch</hi> being very well content with the Companies ſub<g ref="char:EOLhyphen"/>jection,
+<note place="margin">The Dutch content with Comp. rraffick.</note> and poaſting Traffique, becauſe they can diſturb the Natives, then accounting them their enemies, and ſo out them at pleaſure, when, and where they liſt, by prohibiting the <hi>Engliſh</hi> all trade and traffique with them upon pain of confiſcation of ſhip and goods,
+<note place="margin">Eng. outed at pleaſure.</note> which the Company muſt not diſobey, as formerly expreſt.</p>
+               <p>Well: Cap. <hi>W.</hi> from <hi>China</hi> paſſes the <hi>Dutch</hi> Pikes through the ſtraights of <hi>Malacca</hi> with much ado,
+<note place="margin">Cap. W. at Me<g ref="char:EOLhyphen"/>ſulapatan.</note> as aforeſaid, and came to <hi>Maſulapatan</hi> upon the Coaſt of <hi>Chormandel,</hi> being there, the Companies Factors (contrary to their Commiſſions and Orders, yet in ſelf-love) ſeemed very well pleaſed with their comming thither, and after ſome complements,
+<note place="margin">The Comp. neceſſiry.</note> the ſaid Factors diſcovered at laſt their preſent neceſſities (the chiefe motive to their pretended courteſie) and made it their requeſt to Capt. <hi>W.</hi> to borrow of him one thouſand pounds,
+<note place="margin">Cap. W. cour<g ref="char:EOLhyphen"/>teſie.</note> alleadging that their expected ſupplies failed, and ſo their Factories on that Coaſt were in great want; hereupon Capt. <hi>W.</hi> courteouſly ſupplies them with one thouſand pounds,
+<note place="margin">1000 <abbr>li.</abbr> bor<g ref="char:EOLhyphen"/>rowed.</note> and this was all the miſchiefe that hitherto I ever heard he did them, at leaſt maintaining their credits (if not preſerving their lives.)</p>
+               <p>BUt this, and many more hath been requited the cleane con<g ref="char:EOLhyphen"/>trary way,
+<note place="margin">Comp. con<g ref="char:EOLhyphen"/>trary requitals.</note> as plentifully appears by this Diſcourſe; and whe<g ref="char:EOLhyphen"/>ther this 1000 <abbr>li.</abbr> was paid again to Captaine <hi>W.</hi> or any other for Mr. <hi>Courten,</hi> I certainly know not; but this I know, that one of the ſaid Companies Factors late in <hi>India,</hi>
+                  <note place="margin">Mr. E. K.</note> was credibly reported to deliver himſelf in theſe, or the like words openly and plainly, <hi>viz.</hi> That if he liſt,
+<note place="margin">1000 <abbr>li.</abbr> debt doubtfull.</note> he could make it appeare how the <hi>Eaſt-India</hi> Company did owe Mr. <hi>Courten</hi> 1000 <abbr>li.</abbr> (beſides the 5000 li.
+<pb n="35" facs="tcp:56498:22"/>formerly mentioned, which ſurely was conceived to be meant of this foreſaid thouſand pounds being unpaid.</p>
+               <p>And thus you have the reaſons and cauſes (in my apprehen<g ref="char:EOLhyphen"/>ſion) of thoſe their long and lamentable out-cryes,
+<note place="margin">Reaſons and cauſes frivo<g ref="char:EOLhyphen"/>lous.</note> and inſuppor<g ref="char:EOLhyphen"/>table prejudices and ſmartings (as themſelves terme them) and if any other can hereafter be diſcovered then what is formerly ex<g ref="char:EOLhyphen"/>preſt, I hope 'twill be no hard taske to ſee them truly and fully anſwered, unleſſe by mentioning and adjoyning therewith, Sir <hi>K. D.</hi> aſſault of the <hi>Venetians</hi> in the Road of <hi>Scandaroone,</hi>
+                  <note place="margin">Sir K. D. if imputed, the Author ex<g ref="char:EOLhyphen"/>cus'd.</note> if they lay that to Mr. <hi>Courtens</hi> charge, truly then Mr. <hi>Courten</hi> himſelfe, or ſome other for him, muſt come and ſee that impu<g ref="char:EOLhyphen"/>tation anſwered, and removed, for I cannot therein ſay any thing on his behalfe, therefore I muſt be excus'd.</p>
+               <p>But I have made my digreſsion farre greater then I expected,
+<note place="margin">Too long di<g ref="char:EOLhyphen"/>greſſion. The Authors reſolution.</note> now I come to the Letter formerly promiſed, whoſe long ſilence (receiving no anſwer) put me into a muſe, and at laſt I reſolved to give ſummons to my treacherous memory, to try whether or no I had writ that briefly, or in a Myſtery, which I could not explaine more largely, as in this confuſed diſcourſe, or hiſtory; and now followes the ſaid Letter <hi>verbatim,</hi> which was princi<g ref="char:EOLhyphen"/>pally intended to ſecure <hi>Carwar</hi> for future advance of Trade.</p>
+               <floatingText type="letter">
+                  <body>
+                     <head>The Letter, i. e.</head>
+                     <opener>
+                        <salute>
+                           <hi>SIR,</hi> or <hi>SIRS:</hi>
+                        </salute>
+                     </opener>
+                     <p>THe product of former Diſcourſes runs into this reſult; That whereas the <hi>Eaſt-India</hi> Company (and their Accomplices, and Adherents) have ſundry wayes and times ſadly manifeſted, their great diſlike of that juſt and legall expedition of Sir <hi>William Courten</hi> Knight deceaſed, as by the wofull experience of <hi>William Courten</hi> 
+                        <abbr>Eſq</abbr> his Son, Friends, Creditors, and faithfull Factors and Planters plainly appeareth.</p>
+                     <p>Yet if any Chriſtian remorſe or conſideration may conduce for a ſpeedy attonement for advance of Trade, and incouragement of the intended ſubſcription, and removall of all obſtacles, and ani<g ref="char:EOLhyphen"/>moſities poſſible for the better clearing a way for the new Modell to paſſe into an Act, whoſe frame and foundation (for ought yet appearing (ſave the Authority and Coyne of the Commons of
+<pb n="36" facs="tcp:56498:23"/>
+                        <hi>England</hi>) ſeemes plainly to be laid upon the hidden and remain<g ref="char:EOLhyphen"/>ing Baſis of the aboveſaid Sir <hi>William,</hi> and his Sonne, &amp;c. in the ruine and deſtruction of their Trade, Shipping, Factors, Facto<g ref="char:EOLhyphen"/>ries, and Plantation of <hi>Madagaſcar</hi> by the Parties aboveſaid, done, and procured as in due time may be demonſtrated.</p>
+                     <p>And ſeeing nothing now remaines to the Proprietor (or other wel-willers to that Trade on his behalfe (ſave <hi>Carwar</hi>) howſo<g ref="char:EOLhyphen"/>ever ſleighted or neglected by ignorant, inconſiderate <hi>Engliſh,</hi> and preſent undertakers; yet I am confident, (and that upon good grounds) if the <hi>Dutch</hi> get poſſeſſion (as they have often deſi<g ref="char:EOLhyphen"/>red) and as ('tis ſaid) they have already <hi>Cannanore,</hi> (for they are wiſe, and diſcreet Merchants indeed) 100000. <abbr>li.</abbr> ready mo<g ref="char:EOLhyphen"/>ney (as formerly often expreſt) will not regaine it out of their hands, ſeeing it is of more conſequence then all places poſſeſt in <hi>India</hi> by any other <hi>Engliſh</hi> whatſoever at preſent; And if ſo, as in truth it is, then it highly concernes the new Modellers ſpeedily to ſecure the ſame for recovery of that Trade (if poſſible) and for the good of this Common-wealth, ſeeing the Proprietor, and all others by their former and preſent proceedings, are now whol<g ref="char:EOLhyphen"/>ly and altogether prevented to ſupply the ſame.</p>
+                     <p>But as hitherto, ſo now, that nothing may be wanting on the Plaintiffes part (if it wil not be thought preſumption in a mean and private perſon, a common wel-willer) of himſelfe to make an Overture by way of Propoſall, which doubtleſſe would be wel pleaſing both to God and good men (if agreed upon) eſpecially to the foreſaid Company, whether New or Old (if rightly under<g ref="char:EOLhyphen"/>ſtood) the ſaid party further preſuming in time convenient, to procure the conſent of the foreſaid Plaintiffe, and other parties therein concern'd, though the ſum propoſed be not a fifth, or rather a tenth part of the damage ſuſtained; As by particulars, (beſides bloud, and other prejudice to the Common-wealth (as he conceives) may be made plainely to appeare. Therefore thus:</p>
+                     <p>It is well knowne that about 5000. <abbr>li.</abbr> and two braſſe Guns, beyond <hi>Cape bon Eſperanze</hi> were ſurreptitiouſly got, and upon all demands there denyed, and (as 'tis ſaid) coyned and conver<g ref="char:EOLhyphen"/>ted (in their great neceſſity) to their owne uſe; which ſaid ſum and Guns there ſo unjuſtly detained (with intereſt and inſurance here added) would amount in all this time (conſidered either in
+<pb n="37" facs="tcp:56498:23"/>courſe of Trade from <hi>Madraſapatan</hi> to <hi>Bantam,</hi> ſo to <hi>Jambee,</hi> then againe for <hi>Bantam,</hi> ſo for <hi>England,</hi> ſeverall returnes with<g ref="char:EOLhyphen"/>out diſaſter, or conſidered according to intereſt of <hi>Dutch-Bat<g ref="char:EOLhyphen"/>tavia,</hi> or <hi>Achen</hi> Factory, whether it was conſign'd) would I ſay amount to 20000. <abbr>li.</abbr> and upwards, &amp;c. which ſumme, the one moyetie forthwith for <hi>India</hi> to diſcharge the debts there (and by that imployment contracted) to the Natives, for the honour of the Nation, and freedome of Trade; And to others, whoſe faithfulneſſe is approved in that imployment; The other moyetie towards ſatisfaction of Creditors here in <hi>England</hi> in time conve<g ref="char:EOLhyphen"/>nient, and ſo all differences of damages dye, and all parties acquieſſe, the one in their cruel, unreaſonable, and uncharitable ſpoyle, whoſe caſe can be no better: The other in his ſad and unparalleld ſufferings, whoſe condition can be no worſe.</p>
+                     <p>
+                        <hi>Sir,</hi> You may perceive the premiſes points at ſundry particu<g ref="char:EOLhyphen"/>lar perſons, and things of concernment, and therein your ſelfe not the leaſt in regard of former paſſages and firſt ingagement, and you may conceive what content, or profit, a happy or ſpeedy at<g ref="char:EOLhyphen"/>tonement might procure to each particular (eſpecially the <hi>Eaſt-India</hi> Company, the new Modellers, and Common-wealth, (if duly conſidered, all which) I referre to your more ſerious thoughts to move therein, as God and your owne conſcience can beſt direct you; let not the truth offend you:</p>
+                     <closer>
+                        <dateline>
+                           <hi>London</hi> 
+                           <date>25 of <hi>December</hi> 1649.</date> Delivered Mr. <hi>T.</hi> Exc. 28. Dtt.</dateline>
+                        <signed>Your humble Servant <hi>I. D.</hi>
+                        </signed>
+                     </closer>
+                  </body>
+               </floatingText>
+               <p>This melancholly Letter implicitly, is the ſumme or ſub<g ref="char:EOLhyphen"/>ſtance of moſt of this Diſcourſe, in relation to the <hi>Eaſt-India</hi> Company, and preſent Traders (the propoſall and proceed of that 5000 <abbr>li.</abbr> excepted) and was principally intended for the preſerva<g ref="char:EOLhyphen"/>tion of <hi>Carwar</hi> for the good of this Commonwealth, as formerly expreſt.</p>
+               <p>And ſeeing I have likewiſe intimated ſomething concerning the Iſland of <hi>Barbadoes,</hi> &amp;c. in the <hi>Weſt-Indies,</hi> I ſhall attend the pleaſure of Authority or others, to deliver the beſt of my know<g ref="char:EOLhyphen"/>ledge therein: In the mean time I will cloſe, and conclude both, in this generall Aſſertion, and particuler Application thus:</p>
+               <div type="conclusion">
+                  <pb n="38" facs="tcp:56498:24"/>
+                  <head>Aſſertion.</head>
+                  <p>
+                     <hi>THat no Lord, or Commoner, or ſociety of Commoners, in or out of</hi> England, <hi>hath ſo good (if any) reall and perſonall claime, Right and Propriety, in, or to the</hi> Eaſt-India, Mallabar, Acheen, <hi>and</hi> China <hi>Trade, &amp;c. or in or to the Iſland of</hi> Barbado's, <hi>&amp;c. in the</hi> Weſt-Indies, <hi>as Mr.</hi> Courten, <hi>or others in his behalfe.</hi>
+                  </p>
+               </div>
+            </div>
+            <div type="epilogue">
+               <head>The Epilogue.</head>
+               <p>THus far, Sir, I have laboured (alone) in the diſcharge of this my duty, with as much plainneſſe and perſpicuity as I can, to informe your ſelfe, and others of the truth of the Premiſes: And if any doubt or ſcruple ſhould be made, touching any part or parcell thereof, I queſtion not but the ſame may be ſatisfied.</p>
+               <p>I had my Induction here into this work the foreſaid 10. <hi>Decem.</hi> 1639. at Councell-table (long before I knew, or was known to Mr. <hi>Courten</hi>) where, and when I perceived (from the principall perſon there preſent) that publick affairs ran too much upon the by as of particular profit or intereſt (the bane of all Common-wealths proceedings:) And what paines and attendance hath been given therein upon all occaſions, is partly knowne to divers Lords and Gentlemen, as well as your ſelfe, gaining my labour for my travell.</p>
+               <p>Beſides, I am very ſenſible what
+<note place="margin">* Great loſſe and hazards, and marvailous deliverances, I hope for good.</note> prejudice I have ſuſtained thereby, both from the <hi>Eaſt-India</hi> Company, and others therein concerned: And yet truth (which is ſtrongeſt) hath hi<g ref="char:EOLhyphen"/>therto exceedingly appeared in my weakneſſe, and againſt ſuch mighty oppoſitions, and hath almoſt accompliſhed my aimes, and the hopes of my deſires (the reward of my paines) which was, and
+<pb n="39" facs="tcp:56498:24"/>is, To ſee the <hi>Eaſt-India</hi> Trade (of ſuch high concernment) a State, and Commonwealths buſineſſe; and willingly will give my further attendance therein (if thereto required according to that ſmall talent of knowledge and experience God hath given me.</p>
+               <p>And ſo now I commit this Diſcourſe wholly to your further care and conſideration, to move therein as your wiſdome and judge<g ref="char:EOLhyphen"/>ment can beſt direct you, and ſo henceforth poſſeſſe my ſelfe with patience, and in reſt, and confidence, in beleeving attend (if perad<g ref="char:EOLhyphen"/>venture) after a ſad and gloomy night of ſorrow and adverſity, a glad and joyfull morning of redreſſe and proſperity, will ariſe upon that deep, diſtreſſed, and oppreſſed family. And in this ex<g ref="char:EOLhyphen"/>pectation reſolve to abide, Sir,</p>
+               <closer>
+                  <signed>
+                     <hi>Your very humble Servant,</hi>
+John Darell.</signed>
+               </closer>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="errata">
+            <head>Errata's.</head>
+            <p>Page 5. line 25. read tending, p. 7. l. 15. r. of, l. 25. r. Sir, p. 20. l. 5. r. factors and, p. 30. l. 8. r. and diſcoveries, l. 10. r. 2 principall.</p>
+         </div>
+         <div type="imprimatur">
+            <p>Imprimatur</p>
+            <closer>
+               <dateline>
+                  <date>19. <hi>June</hi> 1651. </date>
+               </dateline>
+               <signed>Nath. Brent.</signed>
+            </closer>
+         </div>
+      </back>
+   </text>
+</TEI>
